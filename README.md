@@ -107,27 +107,28 @@ Figure 30: Vector principal stress on the Path\_normal from Hsp\_Spot\_1(left) a
 Figure 31: Vector principal stress on the Path\_normal from Hsp\_Spot\_3(left) and Path\_normal from Hsp\_Spot\_4(right). \
 Figure 32: Vector principal stress on the Path\_normal from Hsp\_Spot\_5. 
 
-1. **Introduction** 
+## 1. Introduction  
 
 In logistics and cargo transportation ensuring the safety and security of the goods is essential. One crucial aspect of the process is effective application of the securing elements. Figure 1. shows a combination of lashing chain systems. These elements are used to maintain load stability during transportation, especially considering the dynamic forces that occur during the process.  
 
-![](Aspose.Words.04bcae5b-4d81-4e82-ac1d-7d108fe3d1c9.001.png)
+<div style="text-align:center"><img src= "./Image/example%20of%20lashing%20chin%20combination.png">
 
 *Figure 1: An example of lashing chin combination*
-
+<div style="text-align:justify">
 Ratchet tensioners are shortening device that is used for applying pretension in the lashing process. The pretension force is applied at the lever of the tensioner, which will ensure the stability of the arrangement to apply additional force due to lashing.  
 
 This study focuses on the selection for material of the head of the tensioner. This part is responsible for transmitting force from the chain to the tensioner. The strength of such a unit is limited by the tensile strength of the same unit. The geometry of the hardware that is analysed is shown in the figure below.    
 
-![](Aspose.Words.04bcae5b-4d81-4e82-ac1d-7d108fe3d1c9.002.jpeg)
+<div style="text-align:center"><img src= "./Image/geometry%20of%20the%20analyzed%20part.png ">
 
 *Figure 2: CAD model of head of the ratchet tensioner*
+<div style="text-align:justify">
 
-2. System 
+## 2. System 
 
 The system is a single part which can be characterized as the head of the ratchet tensioner. However, chains are inserted in the slot of the head, which are means of the force application on the head. As shown in Figure 1, a threaded hub holds two identical heads which are then connected to the chains and a lever to apply a pretension. 
 
-1. Part lists 
+### 2.1 Part lists 
 
 The table below shows the parts that are associated with the system and the materials of the parts. 
 
@@ -142,38 +143,40 @@ The table below shows the parts that are associated with the system and the mate
 |3 |lever |Not specified |
 |4 |Chain |Not specified |
 
-2. Environment 
+### 2.2 Environment 
 
 The shaft of the head is mounted on the hub and the chain is mounted on the slot of the head. However, the hub and the chains are not part of the system. These parts need not be analysed here, but as it comes to their role in setting the boundary conditions later in the simulation is very important and needs to be considered crucial.  
 
-3. Structural loading  
+### 2.3 Structural loading  
 
 Structural loads are the forces that are applied to a structure or a component. During the application only static force is acting in the system which can be characterised as: 
 
 - Pretension load  
 - Lashing load 
-1. **Pretension load** 
+#### 1. Pretension load
 
 According to EN 192105-3 the Standard Hand Force (SHF) of 500 N is applied at the lever which will generate the Standard Tensioning Force (STF) on the ratchet tensioner. The pretension load for ICE CURT-SL 10 and ICE-VSK-KK-10 are given as 28000 N.  
 
-2. **Lashing load** 
+#### 2. Lashing load 
 
 The Ratchet tensioner head will be loaded with the chain on both heads. Therefore, the orientation of the force will always same. The ratchet tensioner and the chain are designed with a permitted lashing force (LC) of 100000 N. So, our system will be pulled by the force of 100000 N along the axis of the shaft. 
 
-3. Method of analysis 
-1. Software used. 
+## 3.Method of analysis 
+### 3.1 Software used. 
 
 The ANSYS Design Modeler (used for geometry imports and edits), ANSYS Mechanical (used for meshing, boundary setup, solution, and analysis) and ANSYS Workbench 2022 R2 have been used for the analysis of the hardware. 
 
-2. Coordinate system 
+### 3.2 Coordinate system 
 
 Thepositive x-axis corresponds to the longitudinal axis of the shaft pointing towards the head. The positive z-axis corresponds to the chain inserting axis. The y-axis corresponds to the width of the head. 
 
-![](Aspose.Words.04bcae5b-4d81-4e82-ac1d-7d108fe3d1c9.003.png)
+<div style="text-align:center"><img src ="./Image/cordinate%20system.png">
 
 *Figure 3: Used coordinate system.* 
 
-4. Analysis of the ratchet tensioner Head 
+<div style= "test-align:left">
+
+## 4. Analysis of the ratchet tensioner Head 
 
 The piece of hardware that needs to be analysed is a single part and does not allow any simplification by breaking down the whole component into different small bodies. Hence, a 3D analysis needs to be performed. Nevertheless, the problem statement can be simplified by using the symmetry planes which results in reducing the model geometry.  
 
