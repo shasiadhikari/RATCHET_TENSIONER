@@ -34,37 +34,77 @@ Results
 
 Contents 
 
-1. **Introduction** .................................................................................................................................... 5 
-1. **System** ............................................................................................................................................. 6 
-1. **Part lists** .................................................................................................................................. 6 
-1. **Environment** ........................................................................................................................... 6 
-1. **Structural loading** ................................................................................................................... 6 
-3. **Method of analysis** ......................................................................................................................... 7 
-1. **Software used.** ........................................................................................................................ 7 
-1. **Coordinate system** .................................................................................................................. 7 
-4. **Analysis of the ratchet tensioner Head** ......................................................................................... 7 
-1. **Geometry simplification** ......................................................................................................... 8 
-1. **Boundary condition** ................................................................................................................ 8 
-1. **Meshing** ................................................................................................................................ 10 
-1. **Stress analysis of pretension load**........................................................................................ 13 
-1. **Stress analysis of the lashing load** ....................................................................................... 16 
-1. **Material selection**................................................................................................................. 17 
-1. **Collapse load simulation** ...................................................................................................... 19 
-1. **Static strength assessment pretension load and Lashing load.** .......................................... 20 
-1. **Fatigue strength assessment pretension and lashing load.** ................................................ 21 
-5. **Conclusion** .................................................................................................................................... 27 
+1. **Introduction** 
+1. **System** 
+1. **Part lists** 
+1. **Environment** 
+1. **Structural loading**
+1. **Method of analysis** 
+1. **Software used.** 
+1. **Coordinate system**
+4. **Analysis of the ratchet tensioner Head** 
+1. **Geometry simplification** 
+1. **Boundary condition**  
+1. **Meshing** 
+1. **Stress analysis of pretension load**
+1. **Stress analysis of the lashing load**  
+1. **Material selection**
+1. **Collapse load simulation**  
+1. **Static strength assessment pretension load and Lashing load.** 
+1. **Fatigue strength assessment pretension and lashing load.** 
+5. **Conclusion** 
 
 List of Tables 
 
-Table 1: Part list and Material assignment. ............................................................................................. 6 Table 2: Force on load case. .................................................................................................................... 9 Table 3: List of maximum stress from pretension load and their percentage of convergence. ............ 13 Table 4: Maximum, Middle and Minimum Principal Stress of the stress hotspots by pretension. ...... 16 Table 5: List of maximum stress from lashing load and their percentage of convergence. .................. 16 Table 6: Maximum, Middle and Minimum Principal Stress of the stress hotspots by lashing. ............ 17 Table 7: List of available materials and their degree of utilization according to the maximum stress obtained on stress analysis. .................................................................................................................. 18 Table 8: Material data used for Ideal-plastic simulation. ...................................................................... 19 Table 9: Assumption and values for static assessment. ........................................................................ 20 Table 10: Combined degree of utilization of the stress hotspots by pretension load. ......................... 21 
-
-Table 11: Combined degree of utilization of the stress hotspots by lashing load. ............................... 21 Table 12: Maximum, Middle and Minimum Principal Stress of the stress hotspot and its normal point at 0.5 mm distance by pretension load................................................................................................. 25 Table 13: Maximum, Middle and Minimum Principal Stress of the stress hotspot and its normal point at 0.5 mm distance by Lashing load. ..................................................................................................... 25 Table 14: Fatigue strength assessment of pretension load. .................................................................. 26 Table 15: Fatigue strength assessment of the lashing load case........................................................... 26 
+Table 1: Part list and Material assignment. \
+Table 2: Force on load case.\
+Table 3: List of maximum stress from pretension load and their percentage of convergence.\
+Table 4: Maximum, Middle and Minimum Principal Stress of the stress hotspots by pretension.\
+Table 5: List of maximum stress from lashing load and their percentage of convergence. \
+Table 6: Maximum, Middle and Minimum Principal Stress of the stress hotspots by lashing. \
+Table 7: List of available materials and their degree of utilization according to the maximum stress obtained on stress analysis.\
+Table 8: Material data used for Ideal-plastic simulation.\ 
+Table 9: Assumption and values for static assessment. \
+Table 10: Combined degree of utilization of the stress hotspots by pretension load. \
+Table 11: Combined degree of utilization of the stress hotspots by lashing load. \
+Table 12: Maximum, Middle and Minimum Principal Stress of the stress hotspot and its normal point at 0.5 mm distance by pretension load.\
+Table 13: Maximum, Middle and Minimum Principal Stress of the stress hotspot and its normal point at 0.5 mm distance by Lashing load. \
+Table 14: Fatigue strength assessment of pretension load. \
+Table 15: Fatigue strength assessment of the lashing load case. \
 
 List of Figures 
 
-Figure 1: An example of lashing chin combination ................................................................................. 5 Figure 2: CAD model of head of the ratchet tensioner ........................................................................... 5 Figure 3: Used coordinate system. .......................................................................................................... 7 Figure 4: Half model of the system with symmetry region. .................................................................... 8 Figure 5: Remote Displacement on the hub and shaft contact face. ...................................................... 9 Figure 6: Remote force application face. ................................................................................................ 9 Figure 7: Initial meshing with spots of interest. .................................................................................... 10 Figure 8: Initial element mesh quality. .................................................................................................. 10 Figure 9: Sweepable bodies on the high stress region.......................................................................... 10 Figure 10: Intermediate mesh ............................................................................................................... 11 Figure 11: Quality of intermediate mesh. ............................................................................................. 11 Figure 12: Intermediate mesh on the high stress regions. ................................................................... 11 Figure 13: Quality of the Intermediate mesh of high stress region ...................................................... 11 Figure 14: Final Mesh ............................................................................................................................ 12 Figure 15: Element Quality of final mesh .............................................................................................. 12 Figure 16: Final mesh on the high stress regions. ................................................................................. 12 Figure 17: Element quality of final mesh on the high stress regions. ................................................... 12 Figure 18: Averaged Maximum stress for Intermediate mesh. ............................................................. 13 Figure 19: Unaveraged Maximum stress for Intermediate mesh. ........................................................ 14 Figure 20: Averaged Maximum stress for final mesh. ........................................................................... 14 Figure 21:Unaveraged Maximum stress for final mesh ........................................................................ 14 Figure 22: Named selection of stress hot spots. ................................................................................... 15 Figure 23: Stress triads of Hsp\_Spot\_1 (left) and stress triads of Hsp\_Spot\_2 (right). ......................... 15 Figure 24: Stress triads of Hsp\_Spot\_3 (left) and stress triads of Hsp\_Spot\_4(right). .......................... 15 Figure 25: Stress triads of Hsp\_Spot\_4. ................................................................................................ 15 Figure 26: Onset of yielding of the system............................................................................................ 19 Figure 27: Collapse load of the system. ................................................................................................ 19 Figure 28: Plastic Strain during collapse of the system ......................................................................... 20 Figure 29: Paths normal to the surface of stress hotspots. .................................................................. 24 Figure 30: Vector principal stress on the Path\_normal from Hsp\_Spot\_1(left) and Path\_normal from Hsp\_Spot\_2(right) ................................................................................................................................. 24 Figure 31: Vector principal stress on the Path\_normal from Hsp\_Spot\_3(left) and Path\_normal from Hsp\_Spot\_4(right). ................................................................................................................................ 24 Figure 32: Vector principal stress on the Path\_normal from Hsp\_Spot\_5............................................ 24 
+Figure 1: An example of lashing chin combination 
+Figure 2: CAD model of head of the ratchet tensioner 
+Figure 3: Used coordinate system. 
+Figure 4: Half model of the system with symmetry region. 
+Figure 5: Remote Displacement on the hub and shaft contact face. Figure 6: Remote force application face. 
+Figure 7: Initial meshing with spots of interest. 
+Figure 8: Initial element mesh quality. 
+Figure 9: Sweepable bodies on the high stress region.
+Figure 10: Intermediate mesh 
+Figure 11: Quality of intermediate mesh. 
+Figure 12: Intermediate mesh on the high stress regions. 
+Figure 13: Quality of the Intermediate mesh of high stress region 
+Figure 14: Final Mesh 
+Figure 15: Element Quality of final mesh 
+Figure 16: Final mesh on the high stress regions. 
+Figure 17: Element quality of final mesh on the high stress regions. 
+Figure 18: Averaged Maximum stress for Intermediate mesh. 
+Figure 19: Unaveraged Maximum stress for Intermediate mesh. Figure 20: Averaged Maximum stress for final mesh. 
+Figure 21:Unaveraged Maximum stress for final mesh 
+Figure 22: Named selection of stress hot spots. 
+Figure 23: Stress triads of Hsp\_Spot\_1 (left) and stress triads of Hsp\_Spot\_2 (right). 
+Figure 24: Stress triads of Hsp\_Spot\_3 (left) and stress triads of Hsp\_Spot\_4(right). 
+Figure 25: Stress triads of Hsp\_Spot\_4. 
+Figure 26: Onset of yielding of the system.
+Figure 27: Collapse load of the system. 
+Figure 28: Plastic Strain during collapse of the system 
+Figure 29: Paths normal to the surface of stress hotspots.  Figure 30: Vector principal stress on the Path\_normal from Hsp\_Spot\_1(left) and Path\_normal from Hsp\_Spot\_2(right) 
+Figure 31: Vector principal stress on the Path\_normal from Hsp\_Spot\_3(left) and Path\_normal from Hsp\_Spot\_4(right). 
+Figure 32: Vector principal stress on the Path\_normal from Hsp\_Spot\_5. 
 
-1. Introduction  
+1. **Introduction** 
 
 In logistics and cargo transportation ensuring the safety and security of the goods is essential. One crucial aspect of the process is effective application of the securing elements. Figure 1. shows a combination of lashing chain systems. These elements are used to maintain load stability during transportation, especially considering the dynamic forces that occur during the process.  
 
