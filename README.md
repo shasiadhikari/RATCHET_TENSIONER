@@ -74,35 +74,38 @@ Table 15: Fatigue strength assessment of the lashing load case. \
 
 List of Figures 
 
-Figure 1: An example of lashing chin combination 
-Figure 2: CAD model of head of the ratchet tensioner 
-Figure 3: Used coordinate system. 
-Figure 4: Half model of the system with symmetry region. 
-Figure 5: Remote Displacement on the hub and shaft contact face. Figure 6: Remote force application face. 
-Figure 7: Initial meshing with spots of interest. 
-Figure 8: Initial element mesh quality. 
-Figure 9: Sweepable bodies on the high stress region.
-Figure 10: Intermediate mesh 
-Figure 11: Quality of intermediate mesh. 
-Figure 12: Intermediate mesh on the high stress regions. 
-Figure 13: Quality of the Intermediate mesh of high stress region 
-Figure 14: Final Mesh 
-Figure 15: Element Quality of final mesh 
-Figure 16: Final mesh on the high stress regions. 
-Figure 17: Element quality of final mesh on the high stress regions. 
-Figure 18: Averaged Maximum stress for Intermediate mesh. 
-Figure 19: Unaveraged Maximum stress for Intermediate mesh. Figure 20: Averaged Maximum stress for final mesh. 
-Figure 21:Unaveraged Maximum stress for final mesh 
-Figure 22: Named selection of stress hot spots. 
-Figure 23: Stress triads of Hsp\_Spot\_1 (left) and stress triads of Hsp\_Spot\_2 (right). 
-Figure 24: Stress triads of Hsp\_Spot\_3 (left) and stress triads of Hsp\_Spot\_4(right). 
-Figure 25: Stress triads of Hsp\_Spot\_4. 
-Figure 26: Onset of yielding of the system.
-Figure 27: Collapse load of the system. 
-Figure 28: Plastic Strain during collapse of the system 
-Figure 29: Paths normal to the surface of stress hotspots.  Figure 30: Vector principal stress on the Path\_normal from Hsp\_Spot\_1(left) and Path\_normal from Hsp\_Spot\_2(right) 
-Figure 31: Vector principal stress on the Path\_normal from Hsp\_Spot\_3(left) and Path\_normal from Hsp\_Spot\_4(right). 
-Figure 32: Vector principal stress on the Path\_normal from Hsp\_Spot\_5. 
+Figure 1: An example of lashing chin combination \
+Figure 2: CAD model of head of the ratchet tensioner \
+Figure 3: Used coordinate system. \
+Figure 4: Half model of the system with symmetry region. \
+Figure 5: Remote Displacement on the hub and shaft contact face. \
+Figure 6: Remote force application face. \
+Figure 7: Initial meshing with spots of interest. \
+Figure 8: Initial element mesh quality. \
+Figure 9: Sweepable bodies on the high stress region.\
+Figure 10: Intermediate mesh \
+Figure 11: Quality of intermediate mesh. \
+Figure 12: Intermediate mesh on the high stress regions. \
+Figure 13: Quality of the Intermediate mesh of high stress region \
+Figure 14: Final Mesh \
+Figure 15: Element Quality of final mesh \
+Figure 16: Final mesh on the high stress regions. \
+Figure 17: Element quality of final mesh on the high stress regions. \
+Figure 18: Averaged Maximum stress for Intermediate mesh. \
+Figure 19: Unaveraged Maximum stress for Intermediate mesh. \
+Figure 20: Averaged Maximum stress for final mesh. \
+Figure 21:Unaveraged Maximum stress for final mesh. \ 
+Figure 22: Named selection of stress hot spots. \
+Figure 23: Stress triads of Hsp\_Spot\_1 (left) and stress triads of Hsp\_Spot\_2 (right). \
+Figure 24: Stress triads of Hsp\_Spot\_3 (left) and stress triads of Hsp\_Spot\_4(right). \
+Figure 25: Stress triads of Hsp\_Spot\_4. \
+Figure 26: Onset of yielding of the system.\
+Figure 27: Collapse load of the system. \
+Figure 28: Plastic Strain during collapse of the system. \
+Figure 29: Paths normal to the surface of stress hotspots.  \
+Figure 30: Vector principal stress on the Path\_normal from Hsp\_Spot\_1(left) and Path\_normal from Hsp\_Spot\_2(right) \
+Figure 31: Vector principal stress on the Path\_normal from Hsp\_Spot\_3(left) and Path\_normal from Hsp\_Spot\_4(right). \
+Figure 32: Vector principal stress on the Path\_normal from Hsp\_Spot\_5. \
 
 1. **Introduction** 
 
