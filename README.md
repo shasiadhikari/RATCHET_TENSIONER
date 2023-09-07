@@ -70,7 +70,7 @@ Table 11: Combined degree of utilization of the stress hotspots by lashing load.
 Table 12: Maximum, Middle and Minimum Principal Stress of the stress hotspot and its normal point at 0.5 mm distance by pretension load.\
 Table 13: Maximum, Middle and Minimum Principal Stress of the stress hotspot and its normal point at 0.5 mm distance by Lashing load. \
 Table 14: Fatigue strength assessment of pretension load. \
-Table 15: Fatigue strength assessment of the lashing load case. \
+Table 15: Fatigue strength assessment of the lashing load case. 
 
 List of Figures 
 
