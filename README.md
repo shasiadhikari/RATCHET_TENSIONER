@@ -94,7 +94,7 @@ Figure 17: Element quality of final mesh on the high stress regions. \
 Figure 18: Averaged Maximum stress for Intermediate mesh. \
 Figure 19: Unaveraged Maximum stress for Intermediate mesh. \
 Figure 20: Averaged Maximum stress for final mesh. \
-Figure 21:Unaveraged Maximum stress for final mesh. \ 
+Figure 21:Unaveraged Maximum stress for final mesh. \
 Figure 22: Named selection of stress hot spots. \
 Figure 23: Stress triads of Hsp\_Spot\_1 (left) and stress triads of Hsp\_Spot\_2 (right). \
 Figure 24: Stress triads of Hsp\_Spot\_3 (left) and stress triads of Hsp\_Spot\_4(right). \
@@ -105,7 +105,7 @@ Figure 28: Plastic Strain during collapse of the system. \
 Figure 29: Paths normal to the surface of stress hotspots.  \
 Figure 30: Vector principal stress on the Path\_normal from Hsp\_Spot\_1(left) and Path\_normal from Hsp\_Spot\_2(right) \
 Figure 31: Vector principal stress on the Path\_normal from Hsp\_Spot\_3(left) and Path\_normal from Hsp\_Spot\_4(right). \
-Figure 32: Vector principal stress on the Path\_normal from Hsp\_Spot\_5. \
+Figure 32: Vector principal stress on the Path\_normal from Hsp\_Spot\_5. 
 
 1. **Introduction** 
 
