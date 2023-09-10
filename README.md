@@ -184,7 +184,7 @@ The piece of hardware that needs to be analysed is a single part and does not al
 
 The geometry needs to be analysed by considering the load case. Since the load application will be always along the axis of the shaft there is room for further simplification. To make use of the mirror symmetry all the parameters like geometry, load application, and materials must be considered. The part is symmetric along the XZ-plane. Therefore, the load application allows us to make use of the half model. The figure below shows the system after applying the symmetry. 
 
-![](Aspose.Words.04bcae5b-4d81-4e82-ac1d-7d108fe3d1c9.004.jpeg)
+<div style = "text-align:center"><img src = "./Image/symmetry.png">
 
 *Figure 4: Half model of the system with symmetry region.*
 
@@ -196,7 +196,7 @@ Boundary  conditions  are  usually  assigned  to  specify  the  information  on 
 
 This boundary condition defines and allows us also to define the parameters of rotation and displacement at an arbitrary remote location in the space. Due to symmetry rotation along z- axis is set free whereas all other rotational and translational components are set 0. In this system, this boundary condition represents the connection of the shaft with the hub.  
 
-![](Aspose.Words.04bcae5b-4d81-4e82-ac1d-7d108fe3d1c9.005.jpeg)
+<div style="text-align:center"><img src="./Image/Remote%20displacement.png">
 
 *Figure 5: Remote Displacement on the hub and shaft contact face.*
 
