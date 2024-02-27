@@ -107,7 +107,7 @@ Figure 30: Vector principal stress on the Path\_normal from Hsp\_Spot\_1(left) a
 Figure 31: Vector principal stress on the Path\_normal from Hsp\_Spot\_3(left) and Path\_normal from Hsp\_Spot\_4(right). \
 Figure 32: Vector principal stress on the Path\_normal from Hsp\_Spot\_5. 
 
-## 1. Introduction  
+## 1 Introduction  
 
 In logistics and cargo transportation ensuring the safety and security of the goods is essential. One crucial aspect of the process is effective application of the securing elements. Figure 1. shows a combination of lashing chain systems. These elements are used to maintain load stability during transportation, especially considering the dynamic forces that occur during the process.  
 
@@ -124,7 +124,7 @@ This study focuses on the selection for material of the head of the tensioner. T
 *Figure 2: CAD model of head of the ratchet tensioner*
 <div style="text-align:justify">
 
-## 2. System 
+## 2 System 
 
 The system is a single part which can be characterized as the head of the ratchet tensioner. However, chains are inserted in the slot of the head, which are means of the force application on the head. As shown in Figure 1, a threaded hub holds two identical heads which are then connected to the chains and a lever to apply a pretension. 
 
@@ -153,15 +153,15 @@ Structural loads are the forces that are applied to a structure or a component. 
 
 - Pretension load  
 - Lashing load 
-#### 1. Pretension load
+#### 1 Pretension load
 
 According to EN 192105-3 the Standard Hand Force (SHF) of 500 N is applied at the lever which will generate the Standard Tensioning Force (STF) on the ratchet tensioner. The pretension load for ICE CURT-SL 10 and ICE-VSK-KK-10 are given as 28000 N.  
 
-#### 2. Lashing load 
+#### 2 Lashing load 
 
 The Ratchet tensioner head will be loaded with the chain on both heads. Therefore, the orientation of the force will always same. The ratchet tensioner and the chain are designed with a permitted lashing force (LC) of 100000 N. So, our system will be pulled by the force of 100000 N along the axis of the shaft. 
 
-## 3.Method of analysis 
+## 3 Method of analysis 
 ### 3.1 Software used. 
 
 The ANSYS Design Modeler (used for geometry imports and edits), ANSYS Mechanical (used for meshing, boundary setup, solution, and analysis) and ANSYS Workbench 2022 R2 have been used for the analysis of the hardware. 
@@ -176,11 +176,11 @@ Thepositive x-axis corresponds to the longitudinal axis of the shaft pointing to
 
 <div style= "test-align:left">
 
-## 4. Analysis of the ratchet tensioner Head 
+## 4 Analysis of the ratchet tensioner Head 
 
 The piece of hardware that needs to be analysed is a single part and does not allow any simplification by breaking down the whole component into different small bodies. Hence, a 3D analysis needs to be performed. Nevertheless, the problem statement can be simplified by using the symmetry planes which results in reducing the model geometry.  
 
-1. Geometry simplification 
+### 4.1. Geometry simplification 
 
 The geometry needs to be analysed by considering the load case. Since the load application will be always along the axis of the shaft there is room for further simplification. To make use of the mirror symmetry all the parameters like geometry, load application, and materials must be considered. The part is symmetric along the XZ-plane. Therefore, the load application allows us to make use of the half model. The figure below shows the system after applying the symmetry. 
 
@@ -188,7 +188,7 @@ The geometry needs to be analysed by considering the load case. Since the load a
 
 *Figure 4: Half model of the system with symmetry region.*
 
-2. Boundary condition 
+### 4.2 Boundary condition 
 
 Boundary  conditions  are  usually  assigned  to  specify  the  information  on  the  dependent variable on the domain boundaries. Defining a boundary condition involves identifying the location of the boundaries and supplying adequate reliable information at the boundaries. The following boundary conditions are defined for the analysis of the hardware. 
 
@@ -219,7 +219,7 @@ This helps to simplify the problem statement as it allows us to specify the loca
 
 <div style= "text-aling:left">
 
-3. Meshing  
+### 4.3 Meshing  
 
 The coarse or default meshing of the component enables us to locate the region where the stress is significantly higher. The tetrahedral element of 2 mm is used for the initial meshing. By analysing the simulation with the initial mesh, we were able to determine the region of interest. The figure below shows the initial mesh and the quality of the mesh.  
 
@@ -272,7 +272,7 @@ To analyse the FEM mesh convergence this mesh must be refined further. Therefore
 
 *Figure 17: Element quality of final mesh on the high stress regions.* 
 
-4. Stress analysis of pretension load 
+### 4.4 Stress analysis of pretension load 
 
 Solutions for varying mesh conditions along with their percentage of convergence are listed in the table below. 
 
@@ -346,7 +346,7 @@ Table below show the values that are taken from those hotspots.
 |4 |Hsp\_Spot\_4 |225\.36 |0\.12 |-6.88 |
 |5 |Hsp\_Spot\_5 |256\.23 |8\.81 |0\.03 |
 
-5. Stress analysis of the lashing load 
+### 4.5 Stress analysis of the lashing load 
 
 Since the lashing lode is also applied to the same location, we are expecting the stress on that location will be higher on magnitude only. At this point, a lot of differences on the results are not  expected.  Solutions  for  varying  mesh  conditions  along  with  their  percentage  of convergence are listed in the table below. 
 
@@ -381,7 +381,7 @@ Now like the stress analysis of pretension load, we will need the maximum, middl
 |4 |Hsp\_Spot\_4 |1225\.52|0\.46|-2.89|
 |5 |Hsp\_Spot\_5 |1158\.57|39\.81|-0.41|
 
-6. Material selection  
+### 4.6 Material selection  
 
 The Maximum equivalent stress obtained from the linear elastic model are initial determining factor in the process of material selection. In this process, a theoretical degree of utilization is calculated. Which will be considered in choosing the material. The equation below shows the calculation of the theoretical degree of utilization.  
 
@@ -448,7 +448,7 @@ In our case, the materials that should be considered are provided. These materia
 
 According to the table above we can choose the materials that are in green zone. However, they are the theoretical values with the elongation to break is considered while calculating the critical strain criterion. In this simulation initially, X4CrNiM016-5-1 material was chosen for the analysis. Which did fail on the static strength assessment. Those results are not included in this report. Nevertheless, in process of finding bater solution X5CrNiCuNb16-4 (P1070) was chosen. Which has the higher tensile strength and yield strength.  
 
-7. Collapse load simulation 
+### 4.7 Collapse load simulation 
 
 For the plastic simulation, bilinear isotropic hardening along with linear elastic behaviour is used. Youngs modulus and poison’s ratio is taken from the data sheet of the material. The materials data are that are used during the simulation. 
 
@@ -485,7 +485,7 @@ and rupture takes place when the time instances to 0.458 s. In this instance the
 
 reaches the full cross-section of the body. This simulation gives us the plastic notch factor of 3.368.  
 
-8. Static strength assessment pretension load and Lashing load. 
+### 4.8 Static strength assessment pretension load and Lashing load. 
 
 Now all the values that are needed for the static assessment are obtained. Therefore, we can proceed with  the  assessment.  The  following  assumptions  and  values  were  considered  during  the  static assessment. 
 
@@ -530,7 +530,7 @@ With these values and assumptions, we are ready for the static assessment of the
 |4 |Hsp\_Spot\_4 |1225\.52|0\.46|-2.89|0\.681 |
 |5 |Hsp\_Spot\_5 |1158\.57|39\.81|-0.41|0\.628 |
 
-9. Fatigue strength assessment pretension and lashing load. 
+### 4.9 Fatigue strength assessment pretension and lashing load. 
 
 Static strength assessment proved that the material that was chosen for our system is for the given loading scenario. Nevertheless, it is still to be determined that the life of the system is adequate for the operation. To do so a fatigue strength assessment is necessary. FKM-Guideline provides us with a process of the fatigue strength assessment with local stress. The equation below represents the fatigue strength assessment with local stress from FKM guidelines. 
 
@@ -703,7 +703,7 @@ Similarly, in the lashing load case, the application load is a pulsating load. H
 <tr><td colspan="1" valign="top">5</td><td colspan="1" valign="top">Hsp_Spot_5</td><td colspan="1" valign="top">0.5 </td><td colspan="1" valign="top">660.7 </td><td colspan="1" valign="top">25.3 </td><td colspan="1" valign="top">1600 </td><td colspan="1" valign="top">0.573 </td></tr>
 </table>
 
-5. Conclusion  
+## 5. Conclusion  
 
 In the material selection process of the spindle hade ICE CURT-SL 10, the maximum stress calculated for the lashing load case from the linear elastic model is beyond the yield limit of the chosen material. However, calculating the static strength component of the material calculated  with  the  critical  strain  criterion  allowed  us  to  see  the  theoretical  degree  of utilization  of  the  material  available.  Considering  those  factors  initially,  X4CrNiM016-5-1 material was chosen for the analysis. Which did fail on the static strength assessment. Those results are not included in this report. Nevertheless, in the process of finding a better solution X5CrNiCuNb16-4  (P1070)  was  chosen.  Which  has  the  higher  tensile  strength  and  yield strength.   
 
