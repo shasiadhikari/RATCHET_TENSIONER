@@ -393,7 +393,7 @@ $$ n_{pl} = min({K_p;\sqrt {E \cdot \varepsilon_{ertr}/R_p}})$$
 
 <div style="text-align:left">
 
-$ where,$ 
+where, 
 
 $a_{SK} : degree \space of \space utilization$
 
@@ -552,6 +552,7 @@ $j_D : ⁡total  \space ⁡factor \space  ⁡of \space  ⁡safety \space  ⁡for
 
 $$ j_D = j_S \cdot j_F $$
 
+$\sigma_{a,i} : ⁡amplitude \space  ⁡of \space  ⁡principal \space  ⁡stresses$
 
 ⁡$ j_S : ⁡load \space ⁡factor \space ⁡of \space ⁡safety⁡(safe \space ⁡load \space ⁡assumptions⁡⁡=⁡1 )$ 
 
