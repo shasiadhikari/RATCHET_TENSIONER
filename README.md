@@ -563,6 +563,8 @@ $$\sigma_{BK} = \sigma_{AK} \cdot K_{BK,\sigma}$$
 
 $\sigma_{AK} : ⁡component⁡ \space  fatigue \space  ⁡limit $
 
+$K_{BK,\sigma}: variable \space ⁡amplitude \space ⁡fatigue \space⁡ strength \space ⁡factor $
+
 $ K_{BK,\sigma}: variable \space ⁡amplitude \space ⁡fatigue \space⁡ strength \space ⁡factor$
 
 $$ K_{BK,\sigma} = {({N_D \over N})^{1 \over k}}$$
