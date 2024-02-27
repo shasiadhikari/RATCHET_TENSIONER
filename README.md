@@ -554,7 +554,7 @@ $$ j_D = j_S \cdot j_F $$
 
 $j_S  : ⁡load \space ⁡factor \space ⁡of \space ⁡safety ⁡(safe \space ⁡load \space ⁡assumptions⁡⁡=⁡1) $
 
-$j_F: ⁡material \space⁡ factor \space ⁡of \space safety ⁡(safe \space ⁡load \space ⁡assumptions⁡⁡=⁡1) $
+$j_F: ⁡material \space⁡ factor \space ⁡of \space safety (indeed \space ⁡more \space ⁡like \space ⁡risk \space assessment) $
 
 $ j_F: ⁡material \space⁡ factor \space ⁡of \space safety ⁡(indeed \space ⁡more \space ⁡like \space ⁡risk \space assessment) $ 
 
