@@ -579,7 +579,7 @@ $$\sigma_{AK} = \sigma_{WK} \cdot K_{AK,\sigma}$$
 
 $\sigma_{AK}:⁡Component \space ⁡fatigue⁡ \space limit \space ⁡for \space ⁡fully \space ⁡reversed⁡ \space stress \space ⁡R⁡=⁡-1 $
 
-⁡$\sigma_{AK}:⁡Component \space ⁡fatigue⁡ \space limit \space ⁡for \space ⁡fully \space ⁡reversed⁡ \space stress \space ⁡R⁡=⁡-1$ 
+$K_{AK,\sigma} : ⁡mean \space ⁡stress \space ⁡factor $
 
 ⁡$K_{AK,\sigma} : ⁡mean \space ⁡stress \space ⁡factor $
 
