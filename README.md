@@ -565,14 +565,15 @@ $\sigma_{AK} : ⁡component⁡ \space  fatigue \space  ⁡limit $
 
 $K_{BK,\sigma}: variable \space ⁡amplitude \space ⁡fatigue \space⁡ strength \space ⁡factor $
 
-$ K_{BK,\sigma}: variable \space ⁡amplitude \space ⁡fatigue \space⁡ strength \space ⁡factor$
 
 $$ K_{BK,\sigma} = {({N_D \over N})^{1 \over k}}$$
 
+$N_D :knee \space ⁡point⁡ \space of \space ⁡S-N \space ⁡curve⁡=⁡10^6 \space ⁡cycles $
 
 ⁡$ N_D :knee \space ⁡point⁡ \space of \space ⁡S-N \space ⁡curve⁡=⁡10^6 \space ⁡cycles $
 
 $N ⁡ ⁡:required \space ⁡number \space ⁡of \space ⁡cycles⁡$
+
 $k ⁡: ⁡slope \space ⁡of \space ⁡S-N \space ⁡curve⁡=⁡5 $
 
 - **Component Strength Fully Reversed** 
