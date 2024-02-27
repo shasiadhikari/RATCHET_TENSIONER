@@ -603,11 +603,8 @@ $K_R:⁡factor \space ⁡for \space ⁡fatigue \space ⁡effect \space ⁡of \sp
 
 $K_V:⁡factor⁡ \space for \space ⁡fatigue \space ⁡effect \space ⁡of \space ⁡surface \space ⁡treatment,⁡e.g.,⁡hardening⁡ $
 
-⁡$K_R:⁡factor \space ⁡for \space ⁡fatigue \space ⁡effect \space ⁡of \space ⁡surface \space ⁡roughness$
-
-⁡$K_V:⁡factor⁡ \space for \space ⁡fatigue \space ⁡effect \space ⁡of \space ⁡surface \space ⁡treatment,⁡e.g.,⁡hardening$ 
-
 - **Design factor** 
+
 $$ n_\sigma = K_t - K_{f-ratio}$$
 
 
