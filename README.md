@@ -385,7 +385,7 @@ Now like the stress analysis of pretension load, we will need the maximum, middl
 
 The Maximum equivalent stress obtained from the linear elastic model are initial determining factor in the process of material selection. In this process, a theoretical degree of utilization is calculated. Which will be considered in choosing the material. The equation below shows the calculation of the theoretical degree of utilization.  
 
-$ a_{SK}= { \sigma_v \over \sigma_{SK}/j_{jes}} \leq 1$
+$$ a_{SK}= { \sigma_v \over \sigma_{SK}/j_{jes}} \leq 1 $$
 
 $\sigma_{SK}= R_p \cdot n_{pl}$
 
