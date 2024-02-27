@@ -581,8 +581,6 @@ $\sigma_{AK}:⁡Component \space ⁡fatigue⁡ \space limit \space ⁡for \space
 
 $K_{AK,\sigma} : ⁡mean \space ⁡stress \space ⁡factor $
 
-⁡$K_{AK,\sigma} : ⁡mean \space ⁡stress \space ⁡factor $
-
 $M_\sigma = a_m \cdot 10^-3 \cdot {R_m \over MPa}+b_m :⁡mean \space ⁡stress \space ⁡sensitivity $
 
 $$ \sigma_{WK} = {\sigma_{w,zd} \over K_{WK} }$$
@@ -598,6 +596,8 @@ $$K_{WK,\sigma} = {1\over n_\sigma}[1+{1\over 2}({1\over K_R})]\cdot {1 \over K_
 $n_\sigma :⁡fatigue⁡ \space support⁡ \space effect \space ⁡due \space ⁡to \space ⁡stress \space ⁡gradient⁡ $
 
 $K_t:⁡(static)⁡stress \space ⁡concentration \space ⁡factor \space ⁡of \space ⁡notch⁡ $
+
+$K_f:⁡fatigue \space ⁡effect⁡ \space factor \space ⁡of \space ⁡notch $
 
 ⁡$K_f:⁡fatigue \space ⁡effect⁡ \space factor \space ⁡of \space ⁡notch⁡$
 
