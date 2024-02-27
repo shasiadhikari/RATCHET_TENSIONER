@@ -557,7 +557,6 @@ $$j_D = j_S \cdot j_F$$
 $j_F:⁡material⁡ \space factor \space ⁡of \space safety⁡(indeed \space ⁡more \space ⁡like \space ⁡risk \space ⁡assessment)$ 
 
 
-⁡= ⁡=
 
 - **Component Strength** 
 
