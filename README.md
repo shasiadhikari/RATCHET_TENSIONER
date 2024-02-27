@@ -387,7 +387,7 @@ The Maximum equivalent stress obtained from the linear elastic model are initial
 
 $$ a_{SK}= { \sigma_v \over \sigma_{SK}/j_{jes}} \leq 1 $$
 
-$\sigma_{SK}= R_p \cdot n_{pl}$
+$$\sigma_{SK}= R_p \cdot n_{pl}$$
 
 $$ n_{pl} = min({K_p;\sqrt {E \cdot \varepsilon_{ertr}/R_p}})$$
 
