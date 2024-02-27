@@ -552,9 +552,9 @@ $j_D : ⁡total  \space ⁡factor \space  ⁡of \space  ⁡safety \space  ⁡for
 
 $$ j_D = j_S \cdot j_F $$
 
-$\sigma_{a,i} : ⁡amplitude \space  ⁡of \space  ⁡principal \space  ⁡stresses$
+$j_S  : ⁡amplitude \space  ⁡of \space  ⁡principal \space  ⁡stresses $
 
-⁡$ j_S : ⁡load \space ⁡factor \space ⁡of \space ⁡safety⁡(safe \space ⁡load \space ⁡assumptions⁡⁡=⁡1 )$ 
+⁡$ j_S : ⁡load \space ⁡factor \space ⁡of \space ⁡safety⁡(safe \space ⁡load \space ⁡assumptions⁡⁡=⁡1) $ 
 
 
 $ j_F:⁡material \space⁡ factor \space ⁡of \space safety⁡(indeed \space ⁡more \space ⁡like \space ⁡risk \space assessment) $ 
