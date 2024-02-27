@@ -550,11 +550,11 @@ $j_D : ⁡total  \space ⁡factor \space  ⁡of \space  ⁡safety \space  ⁡for
 
 - **Factor of safety** 
 
-$$j_D = j_S \cdot j_F$$
+$$ j_D = j_S \cdot j_F $$
 
-⁡$j_S: ⁡load \space ⁡factor \space ⁡of \space ⁡safety⁡(safe \space ⁡load \space ⁡assumptions⁡⁡=⁡1)$ 
+⁡$ j_S : ⁡load \space ⁡factor \space ⁡of \space ⁡safety⁡(safe \space ⁡load \space ⁡assumptions⁡⁡=⁡1 )$ 
 
-$j_F:⁡material⁡ \space factor \space ⁡of \space safety⁡(indeed \space ⁡more \space ⁡like \space ⁡risk \space ⁡assessment)$ 
+$ j_F:⁡material⁡ \space factor \space ⁡of \space safety⁡(indeed \space ⁡more \space ⁡like \space ⁡risk \space ⁡assessment) $ 
 
 
 
@@ -566,10 +566,10 @@ $$\sigma_{BK} = \sigma_{AK} \cdot K_{BK,\sigma}$$
 
 $ K_{BK,\sigma}: variable \space ⁡amplitude \space ⁡fatigue \space⁡ strength \space ⁡factor$
 
-$$K_{BK,\sigma} = {({N_D \over N})^{1 \over k}}$$
+$$ K_{BK,\sigma} = {({N_D \over N})^{1 \over k}}$$
 
 
-⁡$N_D :knee \space ⁡point⁡ \space of \space ⁡S-N \space ⁡curve⁡=⁡10^6 \space ⁡cycles$
+⁡$ N_D :knee \space ⁡point⁡ \space of \space ⁡S-N \space ⁡curve⁡=⁡10^6 \space ⁡cycles $
 
 $N ⁡ ⁡:required \space ⁡number \space ⁡of \space ⁡cycles⁡$
 $k ⁡: ⁡slope \space ⁡of \space ⁡S-N \space ⁡curve⁡=⁡5 $
