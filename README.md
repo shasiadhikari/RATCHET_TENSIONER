@@ -281,16 +281,16 @@ Solutions for varying mesh conditions along with their percentage of convergence
 
 
 <table><tr><th colspan="1" valign="top">Spots </th><th colspan="1" valign="top">Stress Type </th><th colspan="1" valign="top">Intermediate Mesh </th><th colspan="1" valign="top">Final Mesh </th><th colspan="1">Percentage of Convergence </th></tr>
-<tr><td colspan="1" rowspan="2">1 </td><td colspan="1">Maximum stress Averaged (MPa) </td><td colspan="1" valign="top">390\.02 </td><td colspan="1" valign="top">434\.63 </td><td colspan="1" valign="top">11\.44% </td></tr>
-<tr><td colspan="1">Maximum stress Unaveraged (MPa) </td><td colspan="1" valign="top">390\.56 </td><td colspan="1" valign="top">434\.99 </td><td colspan="1" valign="top">11\.37% </td></tr>
-<tr><td colspan="1" rowspan="2">2 </td><td colspan="1">Maximum stress Averaged (MPa) </td><td colspan="1" valign="top">364\.16 </td><td colspan="1" valign="top">374\.59 </td><td colspan="1" valign="top">2\.86% </td></tr>
-<tr><td colspan="1">Maximum stress Unaveraged (MPa) </td><td colspan="1" valign="top">372\.04 </td><td colspan="1" valign="top">376\.38 </td><td colspan="1" valign="top">1\.17% </td></tr>
-<tr><td colspan="1" rowspan="2">3 </td><td colspan="1">Maximum stress Averaged (MPa) </td><td colspan="1" valign="top">264\.86 </td><td colspan="1" valign="top">266\.59 </td><td colspan="1" valign="top">0\.65% </td></tr>
-<tr><td colspan="1">Maximum stress Unaveraged (MPa) </td><td colspan="1" valign="top">265\.06 </td><td colspan="1" valign="top">266\.61 </td><td colspan="1" valign="top">0\.58% </td></tr>
-<tr><td colspan="1" rowspan="2">4 </td><td colspan="1">Maximum stress Averaged (MPa) </td><td colspan="1" valign="top">227\.35 </td><td colspan="1" valign="top">228\.81 </td><td colspan="1" valign="top">0\.64% </td></tr>
-<tr><td colspan="1">Maximum stress Unaveraged (MPa) </td><td colspan="1" valign="top">228\.01 </td><td colspan="1" valign="top">228\.84 </td><td colspan="1" valign="top">0\.37% </td></tr>
-<tr><td colspan="1" rowspan="2">5 </td><td colspan="1">Maximum stress Averaged (MPa) </td><td colspan="1" valign="top">253\.23 </td><td colspan="1" valign="top">251\.99 </td><td colspan="1" valign="top">-0.49% </td></tr>
-<tr><td colspan="1">Maximum stress Unaveraged (MPa) </td><td colspan="1" valign="top">253\.56 </td><td colspan="1" valign="top">252\.00 </td><td colspan="1" valign="top">-0.62% </td></tr>
+<tr><td colspan="1" rowspan="2">1 </td><td colspan="1">Maximum stress Averaged (MPa) </td><td colspan="1" valign="top">390.02 </td><td colspan="1" valign="top">434.63 </td><td colspan="1" valign="top">11.44% </td></tr>
+<tr><td colspan="1">Maximum stress Unaveraged (MPa) </td><td colspan="1" valign="top">390.56 </td><td colspan="1" valign="top">434.99 </td><td colspan="1" valign="top">11.37% </td></tr>
+<tr><td colspan="1" rowspan="2">2 </td><td colspan="1">Maximum stress Averaged (MPa) </td><td colspan="1" valign="top">364.16 </td><td colspan="1" valign="top">374.59 </td><td colspan="1" valign="top">2.86% </td></tr>
+<tr><td colspan="1">Maximum stress Unaveraged (MPa) </td><td colspan="1" valign="top">372.04 </td><td colspan="1" valign="top">376.38 </td><td colspan="1" valign="top">1.17% </td></tr>
+<tr><td colspan="1" rowspan="2">3 </td><td colspan="1">Maximum stress Averaged (MPa) </td><td colspan="1" valign="top">264.86 </td><td colspan="1" valign="top">266.59 </td><td colspan="1" valign="top">0.65% </td></tr>
+<tr><td colspan="1">Maximum stress Unaveraged (MPa) </td><td colspan="1" valign="top">265.06 </td><td colspan="1" valign="top">266.61 </td><td colspan="1" valign="top">0.58% </td></tr>
+<tr><td colspan="1" rowspan="2">4 </td><td colspan="1">Maximum stress Averaged (MPa) </td><td colspan="1" valign="top">227.35 </td><td colspan="1" valign="top">228.81 </td><td colspan="1" valign="top">0.64% </td></tr>
+<tr><td colspan="1">Maximum stress Unaveraged (MPa) </td><td colspan="1" valign="top">228.01 </td><td colspan="1" valign="top">228.84 </td><td colspan="1" valign="top">0.37% </td></tr>
+<tr><td colspan="1" rowspan="2">5 </td><td colspan="1">Maximum stress Averaged (MPa) </td><td colspan="1" valign="top">253.23 </td><td colspan="1" valign="top">251.99 </td><td colspan="1" valign="top">-0.49% </td></tr>
+<tr><td colspan="1">Maximum stress Unaveraged (MPa) </td><td colspan="1" valign="top">253.56 </td><td colspan="1" valign="top">252.00 </td><td colspan="1" valign="top">-0.62% </td></tr>
 </table>
 
 From the table above we can see that all stresses are converged except Spot 1. The reason behind this is the stress singularity due to the force application face. The figure below shows the stress results of the intermediate and final mesh.  
@@ -355,16 +355,16 @@ Since the lashing lode is also applied to the same location, we are expecting th
 
 
 <table><tr><th colspan="1" valign="top">Spots </th><th colspan="1" valign="top">Stress Type </th><th colspan="1" valign="top">Intermediate Mesh </th><th colspan="1" valign="top">Final Mesh </th><th colspan="1">Percentage of Convergence </th></tr>
-<tr><td colspan="1" rowspan="2">1 </td><td colspan="1">Maximum stress Averaged (MPa) </td><td colspan="1">1795\.55</td><td colspan="1">2010\.50</td><td colspan="1">11\.97%</td></tr>
-<tr><td colspan="1">Maximum stress Unaveraged (MPa) </td><td colspan="1">1798\.15</td><td colspan="1">2012\.47</td><td colspan="1">11\.92%</td></tr>
-<tr><td colspan="1" rowspan="2">2 </td><td colspan="1">Maximum stress Averaged (MPa) </td><td colspan="1">1637\.69</td><td colspan="1">1674\.15</td><td colspan="1">2\.23%</td></tr>
-<tr><td colspan="1">Maximum stress Unaveraged (MPa) </td><td colspan="1">1672\.87</td><td colspan="1">1682\.15</td><td colspan="1">0\.55%</td></tr>
-<tr><td colspan="1" rowspan="2">3 </td><td colspan="1">Maximum stress Averaged (MPa) </td><td colspan="1">1192\.18</td><td colspan="1">1194\.05</td><td colspan="1">0\.16%</td></tr>
-<tr><td colspan="1">Maximum stress Unaveraged (MPa) </td><td colspan="1">1193\.08</td><td colspan="1">1194\.14</td><td colspan="1">0\.09%</td></tr>
-<tr><td colspan="1" rowspan="2">4 </td><td colspan="1">Maximum stress Averaged (MPa) </td><td colspan="1">1020\.50</td><td colspan="1">1020\.96</td><td colspan="1">0\.05%</td></tr>
-<tr><td colspan="1">Maximum stress Unaveraged (MPa) </td><td colspan="1">1023\.85</td><td colspan="1">1021\.12</td><td colspan="1">-0.27%</td></tr>
-<tr><td colspan="1" rowspan="2">5 </td><td colspan="1">Maximum stress Averaged (MPa) </td><td colspan="1">1148\.84</td><td colspan="1">1140\.06</td><td colspan="1">-0.76%</td></tr>
-<tr><td colspan="1">Maximum stress Unaveraged (MPa) </td><td colspan="1">1150\.34</td><td colspan="1">1140\.17</td><td colspan="1">-0.88%</td></tr>
+<tr><td colspan="1" rowspan="2">1 </td><td colspan="1">Maximum stress Averaged (MPa) </td><td colspan="1">1795.55</td><td colspan="1">2010.50</td><td colspan="1">11.97%</td></tr>
+<tr><td colspan="1">Maximum stress Unaveraged (MPa) </td><td colspan="1">1798.15</td><td colspan="1">2012.47</td><td colspan="1">11.92%</td></tr>
+<tr><td colspan="1" rowspan="2">2 </td><td colspan="1">Maximum stress Averaged (MPa) </td><td colspan="1">1637.69</td><td colspan="1">1674.15</td><td colspan="1">2.23%</td></tr>
+<tr><td colspan="1">Maximum stress Unaveraged (MPa) </td><td colspan="1">1672.87</td><td colspan="1">1682.15</td><td colspan="1">0.55%</td></tr>
+<tr><td colspan="1" rowspan="2">3 </td><td colspan="1">Maximum stress Averaged (MPa) </td><td colspan="1">1192.18</td><td colspan="1">1194.05</td><td colspan="1">0.16%</td></tr>
+<tr><td colspan="1">Maximum stress Unaveraged (MPa) </td><td colspan="1">1193.08</td><td colspan="1">1194.14</td><td colspan="1">0.09%</td></tr>
+<tr><td colspan="1" rowspan="2">4 </td><td colspan="1">Maximum stress Averaged (MPa) </td><td colspan="1">1020.50</td><td colspan="1">1020.96</td><td colspan="1">0.05%</td></tr>
+<tr><td colspan="1">Maximum stress Unaveraged (MPa) </td><td colspan="1">1023.85</td><td colspan="1">1021.12</td><td colspan="1">-0.27%</td></tr>
+<tr><td colspan="1" rowspan="2">5 </td><td colspan="1">Maximum stress Averaged (MPa) </td><td colspan="1">1148.84</td><td colspan="1">1140.06</td><td colspan="1">-0.76%</td></tr>
+<tr><td colspan="1">Maximum stress Unaveraged (MPa) </td><td colspan="1">1150.34</td><td colspan="1">1140.17</td><td colspan="1">-0.88%</td></tr>
 </table>
 
 Now like the stress analysis of pretension load, we will need the maximum, middle, and minimum  principal  stress.  Analysing  the  vector principal  stress  on  these  hotspots  it  was evident that the vector remains unchanged. Moreover, only the magnitude of stress triads changed in this lode case. Therefore, only the values are presented below. 
@@ -421,29 +421,29 @@ In our case, the materials that should be considered are provided. These materia
 
 
 <table><tr><th colspan="1" valign="top">Type </th><th colspan="1" valign="top">Material No. </th><th colspan="1" valign="top">Kind </th><th colspan="1" valign="bottom">(MPa) </th><th colspan="1" valign="bottom">(MPa) </th><th colspan="1" valign="bottom">% </th><th colspan="1"></th><th colspan="1" valign="bottom">(MPa) </th><th colspan="1"></th></tr>
-<tr><td colspan="1">X2CrNi12 </td><td colspan="1">1\.4003 </td><td colspan="1">P(25) </td><td colspan="1">450 </td><td colspan="1">250 </td><td colspan="1">18 </td><td colspan="1">12\.30 </td><td colspan="1">3074 </td><td colspan="1">1\.31 </td></tr>
-<tr><td colspan="1">X6CrA113 </td><td colspan="1">1\.4002 </td><td colspan="1">H(13.5 </td><td colspan="1">400 </td><td colspan="1">210 </td><td colspan="1">17 </td><td colspan="1">13\.04 </td><td colspan="1">2738 </td><td colspan="1">1\.47 </td></tr>
-<tr><td colspan="1" rowspan="2" valign="top">X6Cr17 </td><td colspan="1" rowspan="2" valign="top">1\.4016 </td><td colspan="1">H(13.5) </td><td colspan="1">430 </td><td colspan="1">240 </td><td colspan="1">18 </td><td colspan="1">12\.55 </td><td colspan="1">3012 </td><td colspan="1">1\.34 </td></tr>
-<tr><td colspan="1">P(25) </td><td colspan="1">430 </td><td colspan="1">240 </td><td colspan="1">20 </td><td colspan="1">13\.23 </td><td colspan="1">3175 </td><td colspan="1">1\.27 </td></tr>
-<tr><td colspan="1">X6CrM017-1 </td><td colspan="1">1\.41 13 </td><td colspan="1">C(8 ) </td><td colspan="1">450 </td><td colspan="1">260 </td><td colspan="1">18 </td><td colspan="1">12\.06 </td><td colspan="1">3135 </td><td colspan="1">1\.28 </td></tr>
-<tr><td colspan="1">X6CrNi17-1 </td><td colspan="1">1\.4017 </td><td colspan="1">C(8) </td><td colspan="1">500 </td><td colspan="1">330 </td><td colspan="1">12 </td><td colspan="1">8\.74 </td><td colspan="1">2884 </td><td colspan="1">1\.40 </td></tr>
-<tr><td colspan="1">X2CrTiNb18 </td><td colspan="1">1\.4509 </td><td colspan="1">C(8) </td><td colspan="1">430 </td><td colspan="1">230 </td><td colspan="1">18 </td><td colspan="1">12\.82 </td><td colspan="1">2949 </td><td colspan="1">1\.37 </td></tr>
-<tr><td colspan="1" rowspan="2" valign="top">X20Cr13 </td><td colspan="1" rowspan="2" valign="top">1\.4021 </td><td colspan="1">QT650 </td><td colspan="1">650 </td><td colspan="1">450 </td><td colspan="1">12 </td><td colspan="1">7\.48 </td><td colspan="1">3367 </td><td colspan="1">1\.20 </td></tr>
-<tr><td colspan="1">QT750 </td><td colspan="1">750 </td><td colspan="1">550 </td><td colspan="1">10 </td><td colspan="1">6\.18 </td><td colspan="1">3399 </td><td colspan="1">1\.18 </td></tr>
-<tr><td colspan="1">X4CrNiM016-5-1 </td><td colspan="1">1\.4418 </td><td colspan="1">T840 </td><td colspan="1">840 </td><td colspan="1">660 </td><td colspan="1">14 </td><td colspan="1">6\.67 </td><td colspan="1">4405 </td><td colspan="1">0\.91 </td></tr>
-<tr><td colspan="1" rowspan="3" valign="top">X5CrNiCuNb16-4 </td><td colspan="1" rowspan="3" valign="top">1\.4542 </td><td colspan="1">P1070 </td><td colspan="1">1070 </td><td colspan="1">1000 </td><td colspan="1">8 </td><td colspan="1">4\.10 </td><td colspan="1">4099 </td><td colspan="1">0\.98 </td></tr>
-<tr><td colspan="1">P950 </td><td colspan="1">950 </td><td colspan="1">800 </td><td colspan="1">10 </td><td colspan="1">5\.12 </td><td colspan="1">4099 </td><td colspan="1">0\.98 </td></tr>
-<tr><td colspan="1">P850 </td><td colspan="1">850 </td><td colspan="1">600 </td><td colspan="1">12 </td><td colspan="1">6\.48 </td><td colspan="1">3888 </td><td colspan="1">1\.04 </td></tr>
-<tr><td colspan="1">X10CrNi18-8 </td><td colspan="1">1\.431 </td><td colspan="1">C(8) </td><td colspan="1">600 </td><td colspan="1">250 </td><td colspan="1">40 </td><td colspan="1">18\.33 </td><td colspan="1">4583 </td><td colspan="1">0\.88 </td></tr>
-<tr><td colspan="1">X2CrNiN18-10 </td><td colspan="1">1\.4311 </td><td colspan="1">P(75) </td><td colspan="1">550 </td><td colspan="1">270 </td><td colspan="1">40 </td><td colspan="1">17\.64 </td><td colspan="1">4762 </td><td colspan="1">0\.85 </td></tr>
-<tr><td colspan="1">X5CrNi18-10 </td><td colspan="1">1\.4301 </td><td colspan="1">P(75) </td><td colspan="1">520 </td><td colspan="1">210 </td><td colspan="1">45 </td><td colspan="1">21\.21 </td><td colspan="1">4455 </td><td colspan="1">0\.90 </td></tr>
-<tr><td colspan="1">X6CrNiTi18-10 </td><td colspan="1">1\.4541 </td><td colspan="1">P(75) </td><td colspan="1">500 </td><td colspan="1">200 </td><td colspan="1">40 </td><td colspan="1">20\.49 </td><td colspan="1">4099 </td><td colspan="1">0\.98 </td></tr>
-<tr><td colspan="1">X6CrNiMoTi17-12-2 </td><td colspan="1">1\.4571 </td><td colspan="1">P(75) </td><td colspan="1">520 </td><td colspan="1">220 </td><td colspan="1">40 </td><td colspan="1">19\.54 </td><td colspan="1">4299 </td><td colspan="1">0\.94 </td></tr>
-<tr><td colspan="1">X2CrNiMoN17-13-5 </td><td colspan="1">1\.4439 </td><td colspan="1">P(75) </td><td colspan="1">580 </td><td colspan="1">270 </td><td colspan="1">40 </td><td colspan="1">17\.64 </td><td colspan="1">4762 </td><td colspan="1">0\.85 </td></tr>
-<tr><td colspan="1">XINiCrMoCuN25-20-7 </td><td colspan="1">1\.4529 </td><td colspan="1">P 75) </td><td colspan="1">650 </td><td colspan="1">300 </td><td colspan="1">40 </td><td colspan="1">16\.73 </td><td colspan="1">5020 </td><td colspan="1">0\.80 </td></tr>
-<tr><td colspan="1">X2CrNiN23-4 </td><td colspan="1">1\.4362 </td><td colspan="1">P 75) </td><td colspan="1">630 </td><td colspan="1">400 </td><td colspan="1">25 </td><td colspan="1">11\.46 </td><td colspan="1">4583 </td><td colspan="1">0\.88 </td></tr>
-<tr><td colspan="1">X2CrNiMoN25-7-4 </td><td colspan="1">1\.441 </td><td colspan="1">P(75) </td><td colspan="1">730 </td><td colspan="1">530 </td><td colspan="1">20 </td><td colspan="1">8\.90 </td><td colspan="1">4718 </td><td colspan="1">0\.85 </td></tr>
-<tr><td colspan="1">X2CrNi12 </td><td colspan="1">1\.4003 </td><td colspan="1">P(25) </td><td colspan="1">450 </td><td colspan="1">250 </td><td colspan="1">18 </td><td colspan="1">12\.30 </td><td colspan="1">3074 </td><td colspan="1">1\.31 </td></tr>
+<tr><td colspan="1">X2CrNi12 </td><td colspan="1">1.4003 </td><td colspan="1">P(25) </td><td colspan="1">450 </td><td colspan="1">250 </td><td colspan="1">18 </td><td colspan="1">12.30 </td><td colspan="1">3074 </td><td colspan="1">1.31 </td></tr>
+<tr><td colspan="1">X6CrA113 </td><td colspan="1">1.4002 </td><td colspan="1">H(13.5 </td><td colspan="1">400 </td><td colspan="1">210 </td><td colspan="1">17 </td><td colspan="1">13.04 </td><td colspan="1">2738 </td><td colspan="1">1.47 </td></tr>
+<tr><td colspan="1" rowspan="2" valign="top">X6Cr17 </td><td colspan="1" rowspan="2" valign="top">1.4016 </td><td colspan="1">H(13.5) </td><td colspan="1">430 </td><td colspan="1">240 </td><td colspan="1">18 </td><td colspan="1">12.55 </td><td colspan="1">3012 </td><td colspan="1">1.34 </td></tr>
+<tr><td colspan="1">P(25) </td><td colspan="1">430 </td><td colspan="1">240 </td><td colspan="1">20 </td><td colspan="1">13.23 </td><td colspan="1">3175 </td><td colspan="1">1.27 </td></tr>
+<tr><td colspan="1">X6CrM017-1 </td><td colspan="1">1.41 13 </td><td colspan="1">C(8 ) </td><td colspan="1">450 </td><td colspan="1">260 </td><td colspan="1">18 </td><td colspan="1">12.06 </td><td colspan="1">3135 </td><td colspan="1">1.28 </td></tr>
+<tr><td colspan="1">X6CrNi17-1 </td><td colspan="1">1.4017 </td><td colspan="1">C(8) </td><td colspan="1">500 </td><td colspan="1">330 </td><td colspan="1">12 </td><td colspan="1">8.74 </td><td colspan="1">2884 </td><td colspan="1">1.40 </td></tr>
+<tr><td colspan="1">X2CrTiNb18 </td><td colspan="1">1.4509 </td><td colspan="1">C(8) </td><td colspan="1">430 </td><td colspan="1">230 </td><td colspan="1">18 </td><td colspan="1">12.82 </td><td colspan="1">2949 </td><td colspan="1">1.37 </td></tr>
+<tr><td colspan="1" rowspan="2" valign="top">X20Cr13 </td><td colspan="1" rowspan="2" valign="top">1.4021 </td><td colspan="1">QT650 </td><td colspan="1">650 </td><td colspan="1">450 </td><td colspan="1">12 </td><td colspan="1">7.48 </td><td colspan="1">3367 </td><td colspan="1">1.20 </td></tr>
+<tr><td colspan="1">QT750 </td><td colspan="1">750 </td><td colspan="1">550 </td><td colspan="1">10 </td><td colspan="1">6.18 </td><td colspan="1">3399 </td><td colspan="1">1.18 </td></tr>
+<tr><td colspan="1">X4CrNiM016-5-1 </td><td colspan="1">1.4418 </td><td colspan="1">T840 </td><td colspan="1">840 </td><td colspan="1">660 </td><td colspan="1">14 </td><td colspan="1">6.67 </td><td colspan="1">4405 </td><td colspan="1">0.91 </td></tr>
+<tr><td colspan="1" rowspan="3" valign="top">X5CrNiCuNb16-4 </td><td colspan="1" rowspan="3" valign="top">1.4542 </td><td colspan="1">P1070 </td><td colspan="1">1070 </td><td colspan="1">1000 </td><td colspan="1">8 </td><td colspan="1">4.10 </td><td colspan="1">4099 </td><td colspan="1">0.98 </td></tr>
+<tr><td colspan="1">P950 </td><td colspan="1">950 </td><td colspan="1">800 </td><td colspan="1">10 </td><td colspan="1">5.12 </td><td colspan="1">4099 </td><td colspan="1">0.98 </td></tr>
+<tr><td colspan="1">P850 </td><td colspan="1">850 </td><td colspan="1">600 </td><td colspan="1">12 </td><td colspan="1">6.48 </td><td colspan="1">3888 </td><td colspan="1">1.04 </td></tr>
+<tr><td colspan="1">X10CrNi18-8 </td><td colspan="1">1.431 </td><td colspan="1">C(8) </td><td colspan="1">600 </td><td colspan="1">250 </td><td colspan="1">40 </td><td colspan="1">18.33 </td><td colspan="1">4583 </td><td colspan="1">0.88 </td></tr>
+<tr><td colspan="1">X2CrNiN18-10 </td><td colspan="1">1.4311 </td><td colspan="1">P(75) </td><td colspan="1">550 </td><td colspan="1">270 </td><td colspan="1">40 </td><td colspan="1">17.64 </td><td colspan="1">4762 </td><td colspan="1">0.85 </td></tr>
+<tr><td colspan="1">X5CrNi18-10 </td><td colspan="1">1.4301 </td><td colspan="1">P(75) </td><td colspan="1">520 </td><td colspan="1">210 </td><td colspan="1">45 </td><td colspan="1">21.21 </td><td colspan="1">4455 </td><td colspan="1">0.90 </td></tr>
+<tr><td colspan="1">X6CrNiTi18-10 </td><td colspan="1">1.4541 </td><td colspan="1">P(75) </td><td colspan="1">500 </td><td colspan="1">200 </td><td colspan="1">40 </td><td colspan="1">20.49 </td><td colspan="1">4099 </td><td colspan="1">0.98 </td></tr>
+<tr><td colspan="1">X6CrNiMoTi17-12-2 </td><td colspan="1">1.4571 </td><td colspan="1">P(75) </td><td colspan="1">520 </td><td colspan="1">220 </td><td colspan="1">40 </td><td colspan="1">19.54 </td><td colspan="1">4299 </td><td colspan="1">0.94 </td></tr>
+<tr><td colspan="1">X2CrNiMoN17-13-5 </td><td colspan="1">1.4439 </td><td colspan="1">P(75) </td><td colspan="1">580 </td><td colspan="1">270 </td><td colspan="1">40 </td><td colspan="1">17.64 </td><td colspan="1">4762 </td><td colspan="1">0.85 </td></tr>
+<tr><td colspan="1">XINiCrMoCuN25-20-7 </td><td colspan="1">1.4529 </td><td colspan="1">P 75) </td><td colspan="1">650 </td><td colspan="1">300 </td><td colspan="1">40 </td><td colspan="1">16.73 </td><td colspan="1">5020 </td><td colspan="1">0.80 </td></tr>
+<tr><td colspan="1">X2CrNiN23-4 </td><td colspan="1">1.4362 </td><td colspan="1">P 75) </td><td colspan="1">630 </td><td colspan="1">400 </td><td colspan="1">25 </td><td colspan="1">11.46 </td><td colspan="1">4583 </td><td colspan="1">0.88 </td></tr>
+<tr><td colspan="1">X2CrNiMoN25-7-4 </td><td colspan="1">1.441 </td><td colspan="1">P(75) </td><td colspan="1">730 </td><td colspan="1">530 </td><td colspan="1">20 </td><td colspan="1">8.90 </td><td colspan="1">4718 </td><td colspan="1">0.85 </td></tr>
+<tr><td colspan="1">X2CrNi12 </td><td colspan="1">1.4003 </td><td colspan="1">P(25) </td><td colspan="1">450 </td><td colspan="1">250 </td><td colspan="1">18 </td><td colspan="1">12.30 </td><td colspan="1">3074 </td><td colspan="1">1.31 </td></tr>
 </table>
 
 According to the table above we can choose the materials that are in green zone. However, they are the theoretical values with the elongation to break is considered while calculating the critical strain criterion. In this simulation initially, X4CrNiM016-5-1 material was chosen for the analysis. Which did fail on the static strength assessment. Those results are not included in this report. Nevertheless, in process of finding bater solution X5CrNiCuNb16-4 (P1070) was chosen. Which has the higher tensile strength and yield strength.  
@@ -535,88 +535,87 @@ With these values and assumptions, we are ready for the static assessment of the
 Static strength assessment proved that the material that was chosen for our system is for the given loading scenario. Nevertheless, it is still to be determined that the life of the system is adequate for the operation. To do so a fatigue strength assessment is necessary. FKM-Guideline provides us with a process of the fatigue strength assessment with local stress. The equation below represents the fatigue strength assessment with local stress from FKM guidelines. 
 
 - **Final assessment** 
+<div src="text-align=center"> 
 
-, = /, ⁡≤ 1 
+$$a_{BK,\sigma_i} = {\sigma_{a,i} \over {\sigma_{BK}/j_D}} \leq 1$$
 
-*( 4)* 
+$a_{BK,\sigma_i} :⁡principal \space ⁡stresses  \space \sigma_⁡1 >  \sigma_⁡2 >  \sigma_⁡3 (s1,s2,s3 in ANSYS) $
 
-, =⁡principal⁡stresses⁡1 >  2 >  3 (s1,s2,s3 in ANSYS) ⁡ , =⁡amplitude⁡of⁡principal⁡stresses⁡ 
+$\sigma_{a,i} : ⁡amplitude \space  ⁡of \space  ⁡principal \space  ⁡stresses$
 
-⁡=⁡component⁡fatigue⁡strength ⁡=⁡total⁡factor⁡of⁡safety⁡for⁡fatigue 
+$\sigma_{BK} : ⁡component⁡ \space  fatigue \space  ⁡strength $
+
+$j_D : ⁡total  \space ⁡factor \space  ⁡of \space  ⁡safety \space  ⁡for \space  fatigue $
+
 
 - **Factor of safety** 
-- ∙
 
-*( 5)* 
+$$j_D = j_S \cdot j_F$$
 
-⁡=⁡load⁡factor⁡of⁡safety⁡(safe⁡load⁡assumptions⁡⁡=⁡1) ⁡=⁡material⁡factor⁡of⁡safety⁡(indeed⁡more⁡like⁡risk⁡assessment) 
+⁡$j_S: ⁡load \space ⁡factor \space ⁡of \space ⁡safety⁡(safe \space ⁡load \space ⁡assumptions⁡⁡=⁡1)$ 
+
+$j_F:⁡material⁡ \space factor \space ⁡of \space safety⁡(indeed \space ⁡more \space ⁡like \space ⁡risk \space ⁡assessment)$ 
+
+
+⁡= ⁡=
 
 - **Component Strength** 
-- ∙ ,
 
-*( 6)* 
+$$\sigma_{BK} = \sigma_{AK} \cdot K_{BK,\sigma}$$
 
-⁡=⁡component⁡fatigue⁡limit 
+⁡$\sigma_{AK}:component \space ⁡fatigue \space ⁡limit$
 
-, ⁡=⁡variable⁡amplitude⁡fatigue⁡strength⁡factor 
+$ K_{BK,\sigma}: variable \space ⁡amplitude \space ⁡fatigue \space⁡ strength \space ⁡factor$
 
-1
+$$K_{BK,\sigma} = {({N_D \over N})^{1 \over k}}$$
 
-, = ( )![](Aspose.Words.04bcae5b-4d81-4e82-ac1d-7d108fe3d1c9.037.png)
 
-⁡=⁡knee⁡point⁡of⁡S-N⁡curve⁡=⁡106⁡cycles⁡ ⁡=⁡required⁡number⁡of⁡cycles⁡ ⁡=⁡slope⁡of⁡S-N⁡curve⁡=⁡5 
+⁡$N_D :knee \space ⁡point⁡ \space of \space ⁡S-N \space ⁡curve⁡=⁡10^6 \space ⁡cycles$
+
+$N ⁡ ⁡:required \space ⁡number \space ⁡of \space ⁡cycles⁡$
+$k ⁡: ⁡slope \space ⁡of \space ⁡S-N \space ⁡curve⁡=⁡5 $
 
 - **Component Strength Fully Reversed** 
-- ∙ ,
+$$\sigma_{AK} = \sigma_{WK} \cdot K_{AK,\sigma}$$
 
-*( 7)* 
 
-⁡=⁡Component⁡fatigue⁡limit⁡for⁡fully⁡reversed⁡stress⁡R⁡=⁡-1 , ⁡=⁡mean⁡stress⁡factor 
+⁡$\sigma_{AK}:⁡Component \space ⁡fatigue⁡ \space limit \space ⁡for \space ⁡fully \space ⁡reversed⁡ \space stress \space ⁡R⁡=⁡-1$ 
 
-- ∙ 10−3 ∙![](Aspose.Words.04bcae5b-4d81-4e82-ac1d-7d108fe3d1c9.038.png)+ ⁡=⁡mean⁡stress⁡sensitivity 
-- ,
+⁡$K_{AK,\sigma} : ⁡mean \space ⁡stress \space ⁡factor $
 
-, ⁡=⁡fatigue⁡limit⁡from⁡material⁡testing⁡for⁡R⁡=⁡-1,⁡p⁡=⁡97.5% 
+$M_\sigma = a_m \cdot 10^-3 \cdot {R_m \over MPa}+b_m :⁡mean \space ⁡stress \space ⁡sensitivity $
 
-⁡=⁡design⁡factor 
+$$ \sigma_{WK} = {\sigma_{w,zd} \over K_{WK} }$$
 
-- **Design factor** 
+$\sigma_{w,zd}: ⁡fatigue \space ⁡limit⁡ \space from \space ⁡material \space ⁡testing \space ⁡for \space ⁡R⁡=⁡-1,⁡p⁡=⁡97.5\% $
 
-1 1 1 1
-
-- [1 + ( )] ∙
-
-, 2
-
-*( 8)* 
-
-=⁡fatigue⁡support⁡effect⁡due⁡to⁡stress⁡gradient⁡ ⁡⁡=⁡(static)⁡stress⁡concentration⁡factor⁡of⁡notch⁡ ⁡=⁡fatigue⁡effect⁡factor⁡of⁡notch⁡ ⁡=⁡factor⁡for⁡fatigue⁡effect⁡of⁡surface⁡roughness ⁡=⁡factor⁡for⁡fatigue⁡effect⁡of⁡surface⁡treatment,⁡e.g.,⁡hardening 
+$K_{WK} : design \space ⁡factor $
 
 - **Design factor** 
 
-⁡ = − −
+$$K_{WK,\sigma} = {1\over n_\sigma}[1+{1\over 2}({1\over K_R})]\cdot {1 \over K_v}$$
 
-*( 9)* /
+$n_\sigma :⁡fatigue⁡ \space support⁡ \space effect \space ⁡due \space ⁡to \space ⁡stress \space ⁡gradient⁡ $
 
-- ⁡=⁡related⁡stress⁡gradient 
+$K_t:⁡(static)⁡stress \space ⁡concentration \space ⁡factor \space ⁡of \space ⁡notch⁡ $
 
-Now with substituting in equation 4 becomes: 
+⁡$K_f:⁡fatigue \space ⁡effect⁡ \space factor \space ⁡of \space ⁡notch⁡$
 
-, = , ∙12( / ⁡≤ 1 
+⁡$K_R:⁡factor \space ⁡for \space ⁡fatigue \space ⁡effect \space ⁡of \space ⁡surface \space ⁡roughness$
 
-1 1 1
+⁡$K_V:⁡factor⁡ \space for \space ⁡fatigue \space ⁡effect \space ⁡of \space ⁡surface \space ⁡treatment,⁡e.g.,⁡hardening$ 
 
-[1 + )] ∙
+- **Design factor** 
+$$ n_\sigma = K_t - K_{f-ratio}$$
 
-, , ,
 
-*( 10)* Equation 10 incorporates the fatigue support and the surface hardening. In this approach, we 
+$$ \hat G ⁡= {d\sigma /ds \over \sigma} :⁡related \space ⁡stress \space ⁡gradient $$
 
-can either use fatigue support or surface hardening factor. Both of these factors improve the fatigue life of the component. However, in our assessment, we have not considered surface treatment (i.e.,  = 1). Additionally, the fatigue support is calculated with the stress gradient at the local stress hotspot. For this assessment stress gradient at the local stress hotspots is required. To obtain these values, at each local stress hotspot a local coordinate system is created  whose  z-axis  is  normal  (pointing  inside)  to  the  surface.  With  the  help  of  those 
+Now with substituting all in initial equation: 
 
-coordinate systems, 0.5 mm long path construction geometry along the z-axis is created. 
+$$ a_{BK,\sigma_i} ={\sigma{a,i}\over \sigma_{w,zd}} {{{1\over n_\sigma}[1+{1\over 2}({1\over K_R})]\cdot {1 \over K_v}}\over K_{AK,\sigma} \cdot K_{BK,\sigma}/j_D} \leq 1  $$
 
-Which allows us to evaluate the principal stress on those construction geometries. Moreover, we will only need the stress at the end point of those paths. The figure below shows the paths that were created to analyse the stress gradient at the hotspots. 
+Above equation incorporates the fatigue support and the surface hardening. In this approach, we can either use fatigue support or surface hardening factor. Both of these factors improve the fatigue life of the component. However, in our assessment, we have not considered surface treatment (i.e.,  = 1). Additionally, the fatigue support is calculated with the stress gradient at the local stress hotspot. For this assessment stress gradient at the local stress hotspots is required. To obtain these values, at each local stress hotspot a local coordinate system is created  whose  z-axis  is  normal  (pointing  inside)  to  the  surface.  With  the  help  of  those coordinate systems, 0.5 mm long path construction geometry along the z-axis is created. Which allows us to evaluate the principal stress on those construction geometries. Moreover, we will only need the stress at the end point of those paths. The figure below shows the paths that were created to analyse the stress gradient at the hotspots. 
 
 <img src="./Image/hsp paths.png">
 
@@ -681,11 +680,11 @@ With the obtained values in tables 12 and 13, we are ready for the fatigue stren
 
 <table><tr><th colspan="1" rowspan="2" valign="top">Spots</th><th colspan="1" rowspan="2" valign="top">Mesh points</th><th colspan="1" rowspan="2" valign="top">Distance of neighbouring point (mm)</th><th colspan="2">Stress amplitude at neighbouring point </th><th colspan="1" rowspan="1" valign="top">No of load cycle </th><th colspan="1" rowspan="2" valign="top">combined degree of utilization </th></tr>
 <tr><td colspan="1">Maximum Principal Stress (MPa) </td><td colspan="1">Middle Principal Stress (MPa) </td></tr>
-<tr><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Hsp_Spot_1</td><td colspan="1" valign="top">0\.5 </td><td colspan="1" valign="top">129\.645 </td><td colspan="1" valign="top">18\.93 </td><td colspan="1" valign="top">100000 </td><td colspan="1" valign="top">0\.548 </td></tr>
-<tr><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Hsp_Spot_2</td><td colspan="1" valign="top">0\.5 </td><td colspan="1" valign="top">130\.09 </td><td colspan="1" valign="top">23\.85 </td><td colspan="1" valign="top">100000 </td><td colspan="1" valign="top">0\.527 </td></tr>
-<tr><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Hsp_Spot_3</td><td colspan="1" valign="top">0\.5 </td><td colspan="1" valign="top">124\.6 </td><td colspan="1" valign="top">6\.2 </td><td colspan="1" valign="top">100000 </td><td colspan="1" valign="top">0\.396 </td></tr>
-<tr><td colspan="1" valign="top">4</td><td colspan="1" valign="top">Hsp_Spot_4</td><td colspan="1" valign="top">0\.5 </td><td colspan="1" valign="top">104\.53 </td><td colspan="1" valign="top">1\.97 </td><td colspan="1" valign="top">100000 </td><td colspan="1" valign="top">0\.343 </td></tr>
-<tr><td colspan="1" valign="top">5</td><td colspan="1" valign="top">Hsp_Spot_5</td><td colspan="1" valign="top">0\.5 </td><td colspan="1" valign="top">118\.85 </td><td colspan="1" valign="top">4\.5 </td><td colspan="1" valign="top">100000 </td><td colspan="1" valign="top">0\.377 </td></tr>
+<tr><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Hsp_Spot_1</td><td colspan="1" valign="top">0.5 </td><td colspan="1" valign="top">129.645 </td><td colspan="1" valign="top">18.93 </td><td colspan="1" valign="top">100000 </td><td colspan="1" valign="top">0.548 </td></tr>
+<tr><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Hsp_Spot_2</td><td colspan="1" valign="top">0.5 </td><td colspan="1" valign="top">130.09 </td><td colspan="1" valign="top">23.85 </td><td colspan="1" valign="top">100000 </td><td colspan="1" valign="top">0.527 </td></tr>
+<tr><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Hsp_Spot_3</td><td colspan="1" valign="top">0.5 </td><td colspan="1" valign="top">124.6 </td><td colspan="1" valign="top">6.2 </td><td colspan="1" valign="top">100000 </td><td colspan="1" valign="top">0.396 </td></tr>
+<tr><td colspan="1" valign="top">4</td><td colspan="1" valign="top">Hsp_Spot_4</td><td colspan="1" valign="top">0.5 </td><td colspan="1" valign="top">104.53 </td><td colspan="1" valign="top">1.97 </td><td colspan="1" valign="top">100000 </td><td colspan="1" valign="top">0.343 </td></tr>
+<tr><td colspan="1" valign="top">5</td><td colspan="1" valign="top">Hsp_Spot_5</td><td colspan="1" valign="top">0.5 </td><td colspan="1" valign="top">118.85 </td><td colspan="1" valign="top">4.5 </td><td colspan="1" valign="top">100000 </td><td colspan="1" valign="top">0.377 </td></tr>
 </table>
 
 Similarly, in the lashing load case, the application load is a pulsating load. However, the pretension load will always be present during the operation. Therefore, the lower load stress should be equal to the stress from the pretension load. With that consideration fatigue strength assessment of the lashing load case was conducted. The table below shows the resulting stress amplitude at the neighbouring point, no of load cycle, and combined degree of utilization. 
