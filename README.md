@@ -552,7 +552,7 @@ $j_D : ⁡total  \space ⁡factor \space  ⁡of \space  ⁡safety \space  ⁡for
 
 $$ j_D = j_S \cdot j_F $$
 
-$j_S  : ⁡load \space ⁡factor \space ⁡of \space ⁡safety $
+$j_S  : ⁡load \space ⁡factor \space ⁡of \space ⁡safety ⁡(safe \space ⁡load \space ⁡assumptions⁡⁡=⁡1) $
 
 ⁡$ j_S : ⁡load \space ⁡factor \space ⁡of \space ⁡safety⁡(safe \space ⁡load \space ⁡assumptions⁡⁡=⁡1) $ 
 
