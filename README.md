@@ -212,68 +212,63 @@ This helps to simplify the problem statement as it allows us to specify the loca
 | - | - |
 |Pretension Load |14000 N |
 |Lashing Load |64000 N |
+<div style= "text-aling:center"><img src="./Image/Remote force.png">
 
-![](Aspose.Words.04bcae5b-4d81-4e82-ac1d-7d108fe3d1c9.006.jpeg)
 
 *Figure 6: Remote force application face.*
+
+<div style= "text-aling:left">
 
 3. Meshing  
 
 The coarse or default meshing of the component enables us to locate the region where the stress is significantly higher. The tetrahedral element of 2 mm is used for the initial meshing. By analysing the simulation with the initial mesh, we were able to determine the region of interest. The figure below shows the initial mesh and the quality of the mesh.  
 
-Spot 3 ![](Aspose.Words.04bcae5b-4d81-4e82-ac1d-7d108fe3d1c9.007.jpeg)![](Aspose.Words.04bcae5b-4d81-4e82-ac1d-7d108fe3d1c9.008.png)
-
-Spot 2 ![](Aspose.Words.04bcae5b-4d81-4e82-ac1d-7d108fe3d1c9.009.png)
-
-Spot 5  Spot 4 
-
-Spot 1 
+<img src="./Image/course mesh.png" width=700 >
 
 *Figure 7: Initial meshing with spots of interest.*
 
-![](Aspose.Words.04bcae5b-4d81-4e82-ac1d-7d108fe3d1c9.010.jpeg)
+<div style= "text-aling:center"><img src="./Image/coursemesh mesh quality.png">
 
 *Figure 8: Initial element mesh quality.*
 
 The high-stress spots were identified from the initial mesh. By analysing the different hotspot areas, further refinement of the meshing is done by slicing the body where hexagonal mesh can be created. The figure below shows the regions created in the Design Modular by slicing the main model to ensure the mesh quality on the region of interest. 
 
-![](Aspose.Words.04bcae5b-4d81-4e82-ac1d-7d108fe3d1c9.011.jpeg)
+<img src="./Image/hotSpotregions.png">
 
 *Figure 9: Sweepable bodies on the high stress region.*
 
 With  these  bodies,  we  can  ensure  the  sweep  mesh  on  the  high  stress  regions.  For  the intermediate mesh, a sweep mesh of 1 mm on sweepable bodies and a default mesh of 4 mm on other bodies with growth rate of 1.5 is used. The mesh that was created on those bodies and their mesh quality is illustrated on the figures below.  
 
-![](Aspose.Words.04bcae5b-4d81-4e82-ac1d-7d108fe3d1c9.012.jpeg)
+<img src="./Image/Intermediate mesh.png">
 
 *Figure 10: Intermediate mesh* 
 
-![](Aspose.Words.04bcae5b-4d81-4e82-ac1d-7d108fe3d1c9.013.jpeg)
+<img src="./Image/Intermediate mesh quality.png">
 
 *Figure 11: Quality of intermediate mesh.* 
-
-![](Aspose.Words.04bcae5b-4d81-4e82-ac1d-7d108fe3d1c9.014.jpeg)
+<img src="./Image/Intermediate mesh hot spot.png">
 
 *Figure 12: Intermediate mesh on the high stress regions.* 
 
-![](Aspose.Words.04bcae5b-4d81-4e82-ac1d-7d108fe3d1c9.015.jpeg)
+<img src="./Image/Intermediate mesh hot spot quality.png">
 
 *Figure 13: Quality of the Intermediate mesh of high stress region* 
 
 To analyse the FEM mesh convergence this mesh must be refined further. Therefore, as the final mesh, a sweep mesh of 0.5 mm on sweepable bodies and a default mesh of 4 mm on other bodies with a growth rate of 1.5 is used. The mesh that was created on those bodies is their mesh quality are illustrated on the figures below. 
 
-![](Aspose.Words.04bcae5b-4d81-4e82-ac1d-7d108fe3d1c9.016.jpeg)
+<img src="./Image/Final Mesh.png">
 
 *Figure 14: Final Mesh* 
 
-![](Aspose.Words.04bcae5b-4d81-4e82-ac1d-7d108fe3d1c9.017.jpeg)
+<img src="./Image/Final Mesh quality.png">
 
 *Figure 15: Element Quality of final mesh* 
 
-![](Aspose.Words.04bcae5b-4d81-4e82-ac1d-7d108fe3d1c9.018.jpeg)
+<img src="./Image/Final Mesh hot spot.png">
 
 *Figure 16: Final mesh on the high stress regions.* 
 
-![](Aspose.Words.04bcae5b-4d81-4e82-ac1d-7d108fe3d1c9.019.jpeg)
+<img src="./Image/Final Mesh hot spot quality.png">
 
 *Figure 17: Element quality of final mesh on the high stress regions.* 
 
@@ -300,39 +295,42 @@ Solutions for varying mesh conditions along with their percentage of convergence
 
 From the table above we can see that all stresses are converged except Spot 1. The reason behind this is the stress singularity due to the force application face. The figure below shows the stress results of the intermediate and final mesh.  
 
-![](Aspose.Words.04bcae5b-4d81-4e82-ac1d-7d108fe3d1c9.020.jpeg)
+<img src="./Image/stress average inter.png">
 
 *Figure 18: Averaged Maximum stress for Intermediate mesh.*
 
-![](Aspose.Words.04bcae5b-4d81-4e82-ac1d-7d108fe3d1c9.021.jpeg)
+<img src="./Image/stress unaverage inter.png">
 
 *Figure 19: Unaveraged Maximum stress for Intermediate mesh.* 
 
-![](Aspose.Words.04bcae5b-4d81-4e82-ac1d-7d108fe3d1c9.022.jpeg)
+<img src="./Image/stress average final.png">
 
 *Figure 20: Averaged Maximum stress for final mesh.* 
 
-![](Aspose.Words.04bcae5b-4d81-4e82-ac1d-7d108fe3d1c9.023.jpeg)
+<img src="./Image/stress unaverage final.png">
 
 *Figure 21:Unaveraged Maximum stress for final mesh* 
 
 Now for the static assessment, we will need the maximum, middle, and minimum principal stress. Therefore, to get those values it is needed to create  a named selection on those maximum stress points. However, it is necessary to confirm those maximums are coincident with the maximum principal stress. If that is not the case, maximum principal stress on the reason of interest will be the hotspot for the analysis. Let’s verify that the principal stress acting on the hot spots is parallel to the respective surface. The figure below shows the named selection and stress triads of those points.  
 
-![](Aspose.Words.04bcae5b-4d81-4e82-ac1d-7d108fe3d1c9.024.jpeg)
+<img src="./Image/named selection.png">
 
 *Figure 22: Named selection of stress hot spots.*
 
-![](Aspose.Words.04bcae5b-4d81-4e82-ac1d-7d108fe3d1c9.025.png) ![](Aspose.Words.04bcae5b-4d81-4e82-ac1d-7d108fe3d1c9.026.png)
+<img src="./Image/vector principal hsp 1.png" width = 325>
+<img src="./Image/vector principal hsp 2.png" width = 325>
 
 *Figure 23: Stress triads of Hsp\_Spot\_1 (left) and stress triads of Hsp\_Spot\_2 (right).* 
 
-![](Aspose.Words.04bcae5b-4d81-4e82-ac1d-7d108fe3d1c9.027.png) ![](Aspose.Words.04bcae5b-4d81-4e82-ac1d-7d108fe3d1c9.028.png)
+<img src="./Image/vector principal hsp 3.png" width = 325>
+<img src="./Image/vector principal hsp 4.png" width = 325>
 
 *Figure 24: Stress triads of Hsp\_Spot\_3 (left) and stress triads of Hsp\_Spot\_4(right).* 
 
-![](Aspose.Words.04bcae5b-4d81-4e82-ac1d-7d108fe3d1c9.029.png)
+<img src="./Image/vector principal hsp 5.png" width = 325>
 
-*Figure 25: Stress triads of Hsp\_Spot\_4.*
+
+*Figure 25: Stress triads of Hsp\_Spot\_5.*
 
 Table below show the values that are taken from those hotspots.  
 
@@ -387,31 +385,34 @@ Now like the stress analysis of pretension load, we will need the maximum, middl
 
 The Maximum equivalent stress obtained from the linear elastic model are initial determining factor in the process of material selection. In this process, a theoretical degree of utilization is calculated. Which will be considered in choosing the material. The equation below shows the calculation of the theoretical degree of utilization.  
 
-- ![](Aspose.Words.04bcae5b-4d81-4e82-ac1d-7d108fe3d1c9.030.png)≤ 1 
+$ a_{SK}= { \sigma_v \over \sigma_{SK}/j_{jes}} \leq 1$
 
-/
+$\sigma_{SK}= R_p \cdot n_{pl}$
 
-*( 1)* 
+$$ n_{pl} = min({K_p;\sqrt {E \cdot \varepsilon_{ertr}/R_p}})$$
 
-- ∙
+<div style="text-align:left">
 
-*( 2) ![](Aspose.Words.04bcae5b-4d81-4e82-ac1d-7d108fe3d1c9.031.png)*
+$ where,$ 
 
-- min⁡( ;√ ∙ / ) 
+$a_{SK} : degree \space of \space utilization$
 
-*( 3)* 
+$\sigma_v : equvalent\space von\space Moesis\space stress$
 
-ℎ ,⁡ 
+$\sigma_{SK} : static\space component\space strength$
 
-- ⁡ ⁡
-- ⁡ ⁡ ⁡
-  - ⁡ ⁡ ℎ 
-  - ⁡ ⁡
-- ⁡ ℎ 
-  - ( )⁡ ⁡
-  - ⁡ ℎ⁡![](Aspose.Words.04bcae5b-4d81-4e82-ac1d-7d108fe3d1c9.032.png)
-- ∙![](Aspose.Words.04bcae5b-4d81-4e82-ac1d-7d108fe3d1c9.033.png)= ⁡ ⁡
-  - , . . ⁡ ⁡ ⁡ ⁡ ⁡
+$j_{jes} : total\space safety \space factor$
+
+$R_p : Yeld \space strength $
+
+$n_{pl}: (plastic)\space section\space factor)$
+
+$K_p = plastic\space notch\space factor$
+
+$\sqrt{E\cdot {\varepsilon_{ertr}\over R_p}} : critical\space strain\space criterion$
+
+$\varepsilon_{ertr} : A; \space i.e.\space enlongation\space to\space break\space for\space ductile\space material$
+⁡
 
 In our case, the materials that should be considered are provided. These materials theoretical degree of utilization is calculated with the maximum von-Miesis stress from the stress analysis and  = 2. The list of materials and their resulting values are provided in the table below.   
 
@@ -466,15 +467,15 @@ For the plastic simulation, bilinear isotropic hardening along with linear elast
 
 In this simulation to find the collapse load five times the combination of the pretension load and the lashing load was applied. since it was not necessary to have a finer mesh to get the collapse load, in this simulation the intermediate mesh model is used. The following figures show the onset of yielding, the collapse load, and the failure of the component.  
 
-![](Aspose.Words.04bcae5b-4d81-4e82-ac1d-7d108fe3d1c9.034.png)
+<img src="./Image/on set of yelding.png">
 
 *Figure 26: Onset of yielding of the system.* 
 
-![](Aspose.Words.04bcae5b-4d81-4e82-ac1d-7d108fe3d1c9.035.png)
+<img src="./Image/collapse load of the system.png">
 
 *Figure 27: Collapse load of the system.* 
 
-![](Aspose.Words.04bcae5b-4d81-4e82-ac1d-7d108fe3d1c9.036.jpeg)
+<img src="./Image/collapse.png">
 
 *Figure 28: Plastic Strain during collapse of the system* 
 
@@ -617,19 +618,22 @@ coordinate systems, 0.5 mm long path construction geometry along the z-axis is c
 
 Which allows us to evaluate the principal stress on those construction geometries. Moreover, we will only need the stress at the end point of those paths. The figure below shows the paths that were created to analyse the stress gradient at the hotspots. 
 
-![](Aspose.Words.04bcae5b-4d81-4e82-ac1d-7d108fe3d1c9.039.jpeg)
+<img src="./Image/hsp paths.png">
 
 *Figure 29: Paths normal to the surface of stress hotspots.* 
 
-![](Aspose.Words.04bcae5b-4d81-4e82-ac1d-7d108fe3d1c9.040.png) ![](Aspose.Words.04bcae5b-4d81-4e82-ac1d-7d108fe3d1c9.041.png)
+<img src="./Image/hsp path1.png" width = 325>
+<img src="./Image/hsp path2.png" width = 325>
 
 *Figure 30: Vector principal stress on the Path\_normal from Hsp\_Spot\_1(left) and Path\_normal from Hsp\_Spot\_2(right)* 
 
-![](Aspose.Words.04bcae5b-4d81-4e82-ac1d-7d108fe3d1c9.042.png) ![](Aspose.Words.04bcae5b-4d81-4e82-ac1d-7d108fe3d1c9.043.png)
+<img src="./Image/hsp path3.png" width = 325>
+<img src="./Image/hsp path4.png" width = 325>
 
 *Figure 31: Vector principal stress on the Path\_normal from Hsp\_Spot\_3(left) and Path\_normal from Hsp\_Spot\_4(right).* 
 
-![](Aspose.Words.04bcae5b-4d81-4e82-ac1d-7d108fe3d1c9.044.png)
+<img src="./Image/hsp path5.png" width = 325>
+
 
 *Figure 32: Vector principal stress on the Path\_normal from Hsp\_Spot\_5* 
 
@@ -640,16 +644,16 @@ Resulting evaluation of those stress are presented on the table below.
 
 
 <table><tr><th colspan="1" valign="top">Spots</th><th colspan="1" valign="top">Mesh points</th><th colspan="1" valign="top">Maximum Principal Stress (MPa)</th><th colspan="1" valign="top">Middle Principal Stress (MPa)</th><th colspan="1" valign="top">Minimum Principal Stress (MPa)</th></tr>
-<tr><td colspan="1" rowspan="2" valign="top">1 </td><td colspan="1" valign="top">Hsp_Spot_1</td><td colspan="1" valign="top">410\.67 </td><td colspan="1" valign="top">42\.52 </td><td colspan="1" valign="top">0\.12 </td></tr>
-<tr><td colspan="1" valign="top">Hsp_Spot_1_Normal</td><td colspan="1" valign="top">259\.29 </td><td colspan="1" valign="top">37\.87 </td><td colspan="1" valign="top">8\.948 </td></tr>
-<tr><td colspan="1" rowspan="2" valign="top">2 </td><td colspan="1" valign="top">Hsp_Spot_2</td><td colspan="1" valign="top">403\.24 </td><td colspan="1" valign="top">50\.55 </td><td colspan="1" valign="top">7\.03 </td></tr>
-<tr><td colspan="1" valign="top">Hsp_Spot__2_Normal</td><td colspan="1" valign="top">260\.19 </td><td colspan="1" valign="top">47\.7 </td><td colspan="1" valign="top">23\.67 </td></tr>
-<tr><td colspan="1" rowspan="2" valign="top">3 </td><td colspan="1" valign="top">Hsp_Spot_3</td><td colspan="1" valign="top">273\.67 </td><td colspan="1" valign="top">15\.43 </td><td colspan="1" valign="top">0\.18 </td></tr>
-<tr><td colspan="1" valign="top">Hsp_Spot_3_Normal</td><td colspan="1" valign="top">249\.23 </td><td colspan="1" valign="top">12\.4 </td><td colspan="1" valign="top">5\.725 </td></tr>
-<tr><td colspan="1" rowspan="2" valign="top">4 </td><td colspan="1" valign="top">Hsp_Spot_4</td><td colspan="1" valign="top">225\.33 </td><td colspan="1" valign="top">0\.1 </td><td colspan="1" valign="top">-6.88 </td></tr>
-<tr><td colspan="1" valign="top">Hsp_Spot_4_Normal</td><td colspan="1" valign="top">209\.07 </td><td colspan="1" valign="top">3\.95 </td><td colspan="1" valign="top">-9.7 </td></tr>
-<tr><td colspan="1" rowspan="2" valign="top">5 </td><td colspan="1" valign="top">Hsp_Spot_5</td><td colspan="1" valign="top">256\.30 </td><td colspan="1" valign="top">8\.81 </td><td colspan="1" valign="top">0\.03 </td></tr>
-<tr><td colspan="1" valign="top">Hsp_Spot_5_Normal</td><td colspan="1" valign="top">237\.19 </td><td colspan="1" valign="top">9\.07 </td><td colspan="1" valign="top">3\.77 </td></tr>
+<tr><td colspan="1" rowspan="2" valign="top">1 </td><td colspan="1" valign="top">Hsp_Spot_1</td><td colspan="1" valign="top">410.67 </td><td colspan="1" valign="top">42.52 </td><td colspan="1" valign="top">0.12 </td></tr>
+<tr><td colspan="1" valign="top">Hsp_Spot_1_Normal</td><td colspan="1" valign="top">259.29 </td><td colspan="1" valign="top">37.87 </td><td colspan="1" valign="top">8.948 </td></tr>
+<tr><td colspan="1" rowspan="2" valign="top">2 </td><td colspan="1" valign="top">Hsp_Spot_2</td><td colspan="1" valign="top">403.24 </td><td colspan="1" valign="top">50.55 </td><td colspan="1" valign="top">7.03 </td></tr>
+<tr><td colspan="1" valign="top">Hsp_Spot__2_Normal</td><td colspan="1" valign="top">260.19 </td><td colspan="1" valign="top">47.7 </td><td colspan="1" valign="top">23.67 </td></tr>
+<tr><td colspan="1" rowspan="2" valign="top">3 </td><td colspan="1" valign="top">Hsp_Spot_3</td><td colspan="1" valign="top">273.67 </td><td colspan="1" valign="top">15.43 </td><td colspan="1" valign="top">0.18 </td></tr>
+<tr><td colspan="1" valign="top">Hsp_Spot_3_Normal</td><td colspan="1" valign="top">249.23 </td><td colspan="1" valign="top">12.4 </td><td colspan="1" valign="top">5.725 </td></tr>
+<tr><td colspan="1" rowspan="2" valign="top">4 </td><td colspan="1" valign="top">Hsp_Spot_4</td><td colspan="1" valign="top">225.33 </td><td colspan="1" valign="top">0.1 </td><td colspan="1" valign="top">-6.88 </td></tr>
+<tr><td colspan="1" valign="top">Hsp_Spot_4_Normal</td><td colspan="1" valign="top">209.07 </td><td colspan="1" valign="top">3.95 </td><td colspan="1" valign="top">-9.7 </td></tr>
+<tr><td colspan="1" rowspan="2" valign="top">5 </td><td colspan="1" valign="top">Hsp_Spot_5</td><td colspan="1" valign="top">256.30 </td><td colspan="1" valign="top">8.81 </td><td colspan="1" valign="top">0.03 </td></tr>
+<tr><td colspan="1" valign="top">Hsp_Spot_5_Normal</td><td colspan="1" valign="top">237.19 </td><td colspan="1" valign="top">9.07 </td><td colspan="1" valign="top">3.77 </td></tr>
 </table>
 
 *Table 13: Maximum, Middle and Minimum Principal Stress of the stress hotspot and its normal point at 0.5 mm distance by Lashing load.* 
@@ -657,16 +661,16 @@ Resulting evaluation of those stress are presented on the table below.
 
 
 <table><tr><th colspan="1" valign="top">Spots</th><th colspan="1" valign="top">Mesh points</th><th colspan="1" valign="top">Maximum Principal Stress (MPa)</th><th colspan="1" valign="top">Middle Principal Stress (MPa)</th><th colspan="1" valign="top">Minimum Principal Stress (MPa)</th></tr>
-<tr><td colspan="1" rowspan="2" valign="top">1 </td><td colspan="1" valign="top">Hsp_Spot_1</td><td colspan="1" valign="top">1877\.40 </td><td colspan="1" valign="top">194\.39 </td><td colspan="1" valign="top">0\.61 </td></tr>
-<tr><td colspan="1" valign="top">Hsp_Spot_1_Normal</td><td colspan="1" valign="top">1185\.40 </td><td colspan="1" valign="top">173\.14 </td><td colspan="1" valign="top">40\.91 </td></tr>
-<tr><td colspan="1" rowspan="2" valign="top">2 </td><td colspan="1" valign="top">Hsp_Spot_2</td><td colspan="1" valign="top">1843\.40 </td><td colspan="1" valign="top">231\.09 </td><td colspan="1" valign="top">32\.16 </td></tr>
-<tr><td colspan="1" valign="top">Hsp_Spot__2_Normal</td><td colspan="1" valign="top">1189\.50 </td><td colspan="1" valign="top">218\.01 </td><td colspan="1" valign="top">108\.05 </td></tr>
-<tr><td colspan="1" rowspan="2" valign="top">3 </td><td colspan="1" valign="top">Hsp_Spot_3</td><td colspan="1" valign="top">1251\.10 </td><td colspan="1" valign="top">70\.54 </td><td colspan="1" valign="top">0\.81 </td></tr>
-<tr><td colspan="1" valign="top">Hsp_Spot_3_Normal</td><td colspan="1" valign="top">1139\.40 </td><td colspan="1" valign="top">55\.04 </td><td colspan="1" valign="top">26\.17 </td></tr>
-<tr><td colspan="1" rowspan="2" valign="top">4 </td><td colspan="1" valign="top">Hsp_Spot_4</td><td colspan="1" valign="top">1030\.10 </td><td colspan="1" valign="top">0\.48 </td><td colspan="1" valign="top">-31.47 </td></tr>
-<tr><td colspan="1" valign="top">Hsp_Spot_4_Normal</td><td colspan="1" valign="top">955\.75 </td><td colspan="1" valign="top">18\.07 </td><td colspan="1" valign="top">-44.62 </td></tr>
-<tr><td colspan="1" rowspan="2" valign="top">5 </td><td colspan="1" valign="top">Hsp_Spot_5</td><td colspan="1" valign="top">1171\.70 </td><td colspan="1" valign="top">40\.29 </td><td colspan="1" valign="top">0\.14 </td></tr>
-<tr><td colspan="1" valign="top">Hsp_Spot_5_Normal</td><td colspan="1" valign="top">1084\.30 </td><td colspan="1" valign="top">41\.47 </td><td colspan="1" valign="top">17\.22 </td></tr>
+<tr><td colspan="1" rowspan="2" valign="top">1 </td><td colspan="1" valign="top">Hsp_Spot_1</td><td colspan="1" valign="top">1877.40 </td><td colspan="1" valign="top">194.39 </td><td colspan="1" valign="top">0.61 </td></tr>
+<tr><td colspan="1" valign="top">Hsp_Spot_1_Normal</td><td colspan="1" valign="top">1185.40 </td><td colspan="1" valign="top">17314 </td><td colspan="1" valign="top">40.91 </td></tr>
+<tr><td colspan="1" rowspan="2" valign="top">2 </td><td colspan="1" valign="top">Hsp_Spot_2</td><td colspan="1" valign="top">1843.40 </td><td colspan="1" valign="top">231.09 </td><td colspan="1" valign="top">32.16 </td></tr>
+<tr><td colspan="1" valign="top">Hsp_Spot__2_Normal</td><td colspan="1" valign="top">1189.50 </td><td colspan="1" valign="top">218.01 </td><td colspan="1" valign="top">108.05 </td></tr>
+<tr><td colspan="1" rowspan="2" valign="top">3 </td><td colspan="1" valign="top">Hsp_Spot_3</td><td colspan="1" valign="top">1251.10 </td><td colspan="1" valign="top">70.54 </td><td colspan="1" valign="top">0.81 </td></tr>
+<tr><td colspan="1" valign="top">Hsp_Spot_3_Normal</td><td colspan="1" valign="top">1139.40 </td><td colspan="1" valign="top">55.04 </td><td colspan="1" valign="top">26.17 </td></tr>
+<tr><td colspan="1" rowspan="2" valign="top">4 </td><td colspan="1" valign="top">Hsp_Spot_4</td><td colspan="1" valign="top">1030.10 </td><td colspan="1" valign="top">0.48 </td><td colspan="1" valign="top">-31.47 </td></tr>
+<tr><td colspan="1" valign="top">Hsp_Spot_4_Normal</td><td colspan="1" valign="top">955.75 </td><td colspan="1" valign="top">18.07 </td><td colspan="1" valign="top">-44.62 </td></tr>
+<tr><td colspan="1" rowspan="2" valign="top">5 </td><td colspan="1" valign="top">Hsp_Spot_5</td><td colspan="1" valign="top">1171.70 </td><td colspan="1" valign="top">40.29 </td><td colspan="1" valign="top">0.14 </td></tr>
+<tr><td colspan="1" valign="top">Hsp_Spot_5_Normal</td><td colspan="1" valign="top">1084.30 </td><td colspan="1" valign="top">41.47 </td><td colspan="1" valign="top">17.22 </td></tr>
 </table>
 
 With the obtained values in tables 12 and 13, we are ready for the fatigue strength assessment of the system according to the FKM-Guideline. As mentioned before, we have the equations and calculation scheme available in Excel format. Following results are obtained with the  = 1.5⁡ and the surface roughness of 16µm. The table below shows the result of the fatigue strength  analysis  of  the  pretension  load.  The  pretension  load  is  an  ideal  pulsating  load. Therefore, the lower load stress or the minimum stress is zero. 
@@ -692,11 +696,11 @@ Similarly, in the lashing load case, the application load is a pulsating load. H
 
 <table><tr><th colspan="1" rowspan="2" valign="top">Spots</th><th colspan="1" rowspan="2" valign="top">Mesh points</th><th colspan="1" rowspan="2" valign="top">Distance of neighbouring point (mm) </th><th colspan="2">Stress amplitude at neighbouring point </th><th colspan="1" rowspan="1" valign="top">No of load cycle </th><th colspan="1" rowspan="2" valign="top">combined degree of utilization </th></tr>
 <tr><td colspan="1">Maximum Principal Stress (MPa)</td><td colspan="1">Middle Principal Stress (MPa)</td></tr>
-<tr><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Hsp_Spot_1</td><td colspan="1" valign="top">0\.5 </td><td colspan="1" valign="top">722\.3 </td><td colspan="1" valign="top">105\.5 </td><td colspan="1" valign="top">1600 </td><td colspan="1" valign="top">1\.000 </td></tr>
-<tr><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Hsp_Spot_2</td><td colspan="1" valign="top">0\.5 </td><td colspan="1" valign="top">724\.8 </td><td colspan="1" valign="top">132\.9 </td><td colspan="1" valign="top">1600 </td><td colspan="1" valign="top">0\.982 </td></tr>
-<tr><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Hsp_Spot_3</td><td colspan="1" valign="top">0\.5 </td><td colspan="1" valign="top">649\.3 </td><td colspan="1" valign="top">33\.7 </td><td colspan="1" valign="top">1600 </td><td colspan="1" valign="top">0\.615 </td></tr>
-<tr><td colspan="1" valign="top">4</td><td colspan="1" valign="top">Hsp_Spot_4</td><td colspan="1" valign="top">0\.5 </td><td colspan="1" valign="top">582\.4 </td><td colspan="1" valign="top">11 </td><td colspan="1" valign="top">1600 </td><td colspan="1" valign="top">0\.512 </td></tr>
-<tr><td colspan="1" valign="top">5</td><td colspan="1" valign="top">Hsp_Spot_5</td><td colspan="1" valign="top">0\.5 </td><td colspan="1" valign="top">660\.7 </td><td colspan="1" valign="top">25\.3 </td><td colspan="1" valign="top">1600 </td><td colspan="1" valign="top">0\.573 </td></tr>
+<tr><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Hsp_Spot_1</td><td colspan="1" valign="top">0.5 </td><td colspan="1" valign="top">722.3 </td><td colspan="1" valign="top">105.5 </td><td colspan="1" valign="top">1600 </td><td colspan="1" valign="top">1.000 </td></tr>
+<tr><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Hsp_Spot_2</td><td colspan="1" valign="top">0.5 </td><td colspan="1" valign="top">724.8 </td><td colspan="1" valign="top">132.9 </td><td colspan="1" valign="top">1600 </td><td colspan="1" valign="top">0.982 </td></tr>
+<tr><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Hsp_Spot_3</td><td colspan="1" valign="top">0.5 </td><td colspan="1" valign="top">649.3 </td><td colspan="1" valign="top">33.7 </td><td colspan="1" valign="top">1600 </td><td colspan="1" valign="top">0.615 </td></tr>
+<tr><td colspan="1" valign="top">4</td><td colspan="1" valign="top">Hsp_Spot_4</td><td colspan="1" valign="top">0.5 </td><td colspan="1" valign="top">582.4 </td><td colspan="1" valign="top">11 </td><td colspan="1" valign="top">1600 </td><td colspan="1" valign="top">0.512 </td></tr>
+<tr><td colspan="1" valign="top">5</td><td colspan="1" valign="top">Hsp_Spot_5</td><td colspan="1" valign="top">0.5 </td><td colspan="1" valign="top">660.7 </td><td colspan="1" valign="top">25.3 </td><td colspan="1" valign="top">1600 </td><td colspan="1" valign="top">0.573 </td></tr>
 </table>
 
 5. Conclusion  
