@@ -556,15 +556,12 @@ $j_S  : ⁡load \space ⁡factor \space ⁡of \space ⁡safety ⁡(safe \space �
 
 $j_F: ⁡material \space⁡ factor \space ⁡of \space safety (indeed \space ⁡more \space ⁡like \space ⁡risk \space assessment) $
 
-$ j_F: ⁡material \space⁡ factor \space ⁡of \space safety ⁡(indeed \space ⁡more \space ⁡like \space ⁡risk \space assessment) $ 
-
-
 
 - **Component Strength** 
 
 $$\sigma_{BK} = \sigma_{AK} \cdot K_{BK,\sigma}$$
 
-⁡$\sigma_{AK}:component \space ⁡fatigue \space ⁡limit$
+$\sigma_{AK} : ⁡component⁡ \space  fatigue \space  ⁡limit $
 
 $ K_{BK,\sigma}: variable \space ⁡amplitude \space ⁡fatigue \space⁡ strength \space ⁡factor$
 
