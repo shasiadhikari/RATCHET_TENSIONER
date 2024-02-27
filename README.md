@@ -599,7 +599,9 @@ $K_t:⁡(static)⁡stress \space ⁡concentration \space ⁡factor \space ⁡of 
 
 $K_f:⁡fatigue \space ⁡effect⁡ \space factor \space ⁡of \space ⁡notch $
 
-⁡$K_f:⁡fatigue \space ⁡effect⁡ \space factor \space ⁡of \space ⁡notch⁡$
+$K_R:⁡factor \space ⁡for \space ⁡fatigue \space ⁡effect \space ⁡of \space ⁡surface \space ⁡roughness⁡ $
+
+$K_V:⁡factor⁡ \space for \space ⁡fatigue \space ⁡effect \space ⁡of \space ⁡surface \space ⁡treatment,⁡e.g.,⁡hardening⁡ $
 
 ⁡$K_R:⁡factor \space ⁡for \space ⁡fatigue \space ⁡effect \space ⁡of \space ⁡surface \space ⁡roughness$
 
