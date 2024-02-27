@@ -570,8 +570,6 @@ $$ K_{BK,\sigma} = {({N_D \over N})^{1 \over k}}$$
 
 $N_D :knee \space ⁡point⁡ \space of \space ⁡S-N \space ⁡curve⁡=⁡10^6 \space ⁡cycles $
 
-⁡$ N_D :knee \space ⁡point⁡ \space of \space ⁡S-N \space ⁡curve⁡=⁡10^6 \space ⁡cycles $
-
 $N ⁡ ⁡:required \space ⁡number \space ⁡of \space ⁡cycles⁡$
 
 $k ⁡: ⁡slope \space ⁡of \space ⁡S-N \space ⁡curve⁡=⁡5 $
@@ -579,6 +577,7 @@ $k ⁡: ⁡slope \space ⁡of \space ⁡S-N \space ⁡curve⁡=⁡5 $
 - **Component Strength Fully Reversed** 
 $$\sigma_{AK} = \sigma_{WK} \cdot K_{AK,\sigma}$$
 
+$\sigma_{AK}:⁡Component \space ⁡fatigue⁡ \space limit \space ⁡for \space ⁡fully \space ⁡reversed⁡ \space stress \space ⁡R⁡=⁡-1 $
 
 ⁡$\sigma_{AK}:⁡Component \space ⁡fatigue⁡ \space limit \space ⁡for \space ⁡fully \space ⁡reversed⁡ \space stress \space ⁡R⁡=⁡-1$ 
 
