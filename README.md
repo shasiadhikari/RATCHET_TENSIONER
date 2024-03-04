@@ -418,34 +418,32 @@ In our case, the materials that should be considered are provided. These materia
 
 *Table 7: List of available materials and their degree of utilization according to the maximum stress obtained on stress analysis.* 
 
+| Type              | Material No. | Kind   | $R_m$ (MPa) | $R_e$ (MPa) | $A$ % | $n_{pl}$ | $σ_{SK}$ (MPa) | $a_{sk}$ |
+|-------------------|--------------|--------|-----------|-----------|-----|------|------------|------|
+| X2CrNi12          | 1.4003       | P(25)  | 450       | 250       | 18  | 12.30| 3074       | <span style="color:red">1.31</span> |
+| X6CrA113          | 1.4002       | H(13.5)| 400       | 210       | 17  | 13.04| 2738       | <span style="color:red">1.47</span> |
+| X6Cr17            | 1.4016       | H(13.5)| 430       | 240       | 18  | 12.55| 3012       | <span style="color:red">1.34</span> |
+|                   |              | P(25)  | 430       | 240       | 20  | 13.23| 3175       | <span style="color:red">1.27</span> |
+| X6CrM017-1        | 1.4113       | C(8)   | 450       | 260       | 18  | 12.06| 3135       | <span style="color:red">1.28</span> |
+| X6CrNi17-1        | 1.4017       | C(8)   | 500       | 330       | 12  | 8.74 | 2884       | <span style="color:red">1.40</span> |
+| X2CrTiNb18        | 1.4509       | C(8)   | 430       | 230       | 18  | 12.82| 2949       | <span style="color:red">1.37</span> |
+| X20Cr13           | 1.4021       | QT650  | 650       | 450       | 12  | 7.48 | 3367       | <span style="color:red">1.20</span> |
+|                   |              | QT750  | 750       | 550       | 10  | 6.18 | 3399       | <span style="color:red">1.18</span> |
+| X4CrNiM016-5-1    | 1.4418       | T840   | 840       | 660       | 14  | 6.67 | 4405       | <span style="color:green">0.91</span> |
+| X5CrNiCuNb16-4    | 1.4542       | P1070  | 1070      | 1000      | 8   | 4.10 | 4099       | <span style="color:green">0.98</span> |
+|                   |              | P950   | 950       | 800       | 10  | 5.12 | 4099       | <span style="color:green">0.98</span> |
+|                   |              | P850   | 850       | 600       | 12  | 6.48 | 3888       | <span style="color:red">1.04</span> |
+| X10CrNi18-8       | 1.431        | C(8)   | 600       | 250       | 40  | 18.33| 4583       | <span style="color:green">0.88</span> |
+| X2CrNiN18-10      | 1.4311       | P(75)  | 550       | 270       | 40  | 17.64| 4762       | <span style="color:green">0.85</span> |
+| X5CrNi18-10       | 1.4301       | P(75)  | 520       | 210       | 45  | 21.21| 4455       | <span style="color:green">0.90</span> |
+| X6CrNiTi18-10     | 1.4541       | P(75)  | 500       | 200       | 40  | 20.49| 4099       | <span style="color:green">0.98</span> |
+| X6CrNiMoTi17-12-2 | 1.4571       | P(75)  | 520       | 220       | 40  | 19.54| 4299       | <span style="color:green">0.94</span> |
+| X2CrNiMoN17-13-5  | 1.4439       | P(75)  | 580       | 270       | 40  | 17.64| 4762       | <span style="color:green">0.85</span> |
+| XINiCrMoCuN25-20-7|1.4529        | P(75)  | 650       | 300       | 40  | 16.73| 5020       | <span style="color:green">0.80</span> |
+| X2CrNiN23-4       | 1.4362       | P(75)  | 630       | 400       | 25  | 11.46| 4583       | <span style="color:green">0.88        |
+|X2CrNiMoN25-7-4    | 1.441        | P(75)  | 450       | 250       | 18  | 8.90 | 4718       | <span style="color:green">0.85        |
 
 
-
-<table><tr><th colspan="1" valign="top">Type </th><th colspan="1" valign="top">Material No. </th><th colspan="1" valign="top">Kind </th><th colspan="1" valign="bottom"> R_m (MPa) </th><th colspan="1" valign="bottom">R_e (MPa) </th><th colspan="1" valign="bottom">A % </th><th colspan="1" valign= "bottom"> n_pl</th><th colspan="1" valign="bottomM">σ_SK (MPa) </th><th colspan="1"> a_sk</th></tr>
-<tr><td colspan="1">X2CrNi12 </td><td colspan="1">1.4003 </td><td colspan="1">P(25) </td><td colspan="1">450 </td><td colspan="1">250 </td><td colspan="1">18 </td><td colspan="1">12.30 </td><td colspan="1">3074 </td><td colspan="1" style="color:#f03c15">1.31 </span> </td></tr>
-<tr><td colspan="1">X6CrA113 </td><td colspan="1">1.4002 </td><td colspan="1">H(13.5) </td><td colspan="1">400 </td><td colspan="1">210 </td><td colspan="1">17 </td><td colspan="1">13.04 </td><td colspan="1">2738 </td><td colspan="1"><span style="color:red">1.47 </td></tr>
-<tr><td colspan="1" rowspan="2" valign="top">X6Cr17 </td><td colspan="1" rowspan="2" valign="top">1.4016 </td><td colspan="1">H(13.5) </td><td colspan="1">430 </td><td colspan="1">240 </td><td colspan="1">18 </td><td colspan="1">12.55 </td><td colspan="1">3012 </td><td colspan="1"><span style="color:red">1.34 </td></tr>
-<tr><td colspan="1">P(25) </td><td colspan="1">430 </td><td colspan="1">240 </td><td colspan="1">20 </td><td colspan="1">13.23 </td><td colspan="1">3175 </td><td colspan="1"><span style="color:red">1.27 </td></tr>
-<tr><td colspan="1">X6CrM017-1 </td><td colspan="1">1.41 13 </td><td colspan="1">C(8 ) </td><td colspan="1">450 </td><td colspan="1">260 </td><td colspan="1">18 </td><td colspan="1">12.06 </td><td colspan="1">3135 </td><td colspan="1"><span style="color:red">1.28 </td></tr>
-<tr><td colspan="1">X6CrNi17-1 </td><td colspan="1">1.4017 </td><td colspan="1">C(8) </td><td colspan="1">500 </td><td colspan="1">330 </td><td colspan="1">12 </td><td colspan="1">8.74 </td><td colspan="1">2884 </td><td colspan="1"><span style="color:red">1.40 </td></tr>
-<tr><td colspan="1">X2CrTiNb18 </td><td colspan="1">1.4509 </td><td colspan="1">C(8) </td><td colspan="1">430 </td><td colspan="1">230 </td><td colspan="1">18 </td><td colspan="1">12.82 </td><td colspan="1">2949 </td><td colspan="1"><span style="color:red">1.37 </td></tr>
-<tr><td colspan="1" rowspan="2" valign="top">X20Cr13 </td><td colspan="1" rowspan="2" valign="top">1.4021 </td><td colspan="1">QT650 </td><td colspan="1">650 </td><td colspan="1">450 </td><td colspan="1">12 </td><td colspan="1">7.48 </td><td colspan="1">3367 </td><td colspan="1"><span style="color:red">1.20 </td></tr>
-<tr><td colspan="1">QT750 </td><td colspan="1">750 </td><td colspan="1">550 </td><td colspan="1">10 </td><td colspan="1">6.18 </td><td colspan="1">3399 </td><td colspan="1"><span style="color:red">1.18 </td></tr>
-<tr><td colspan="1">X4CrNiM016-5-1 </td><td colspan="1">1.4418 </td><td colspan="1">T840 </td><td colspan="1">840 </td><td colspan="1">660 </td><td colspan="1">14 </td><td colspan="1">6.67 </td><td colspan="1">4405 </td><td colspan="1"><span style="color:green">0.91 </td></tr>
-<tr><td colspan="1" rowspan="3" valign="top">X5CrNiCuNb16-4 </td><td colspan="1" rowspan="3" valign="top">1.4542 </td><td colspan="1">P1070 </td><td colspan="1">1070 </td><td colspan="1">1000 </td><td colspan="1">8 </td><td colspan="1">4.10 </td><td colspan="1">4099 </td><td colspan="1"><span style="color:green">0.98 </td></tr>
-<tr><td colspan="1">P950 </td><td colspan="1">950 </td><td colspan="1">800 </td><td colspan="1">10 </td><td colspan="1">5.12 </td><td colspan="1">4099 </td><td colspan="1"><span style="color:green">0.98 </td></tr>
-<tr><td colspan="1">P850 </td><td colspan="1">850 </td><td colspan="1">600 </td><td colspan="1">12 </td><td colspan="1">6.48 </td><td colspan="1">3888 </td><td colspan="1"><span style="color:red">1.04 </td></tr>
-<tr><td colspan="1">X10CrNi18-8 </td><td colspan="1">1.431 </td><td colspan="1">C(8) </td><td colspan="1">600 </td><td colspan="1">250 </td><td colspan="1">40 </td><td colspan="1">18.33 </td><td colspan="1">4583 </td><td colspan="1"><span style="color:green">0.88 </td></tr>
-<tr><td colspan="1">X2CrNiN18-10 </td><td colspan="1">1.4311 </td><td colspan="1">P(75) </td><td colspan="1">550 </td><td colspan="1">270 </td><td colspan="1">40 </td><td colspan="1">17.64 </td><td colspan="1">4762 </td><td colspan="1"><span style="color:green">0.85 </td></tr>
-<tr><td colspan="1">X5CrNi18-10 </td><td colspan="1">1.4301 </td><td colspan="1">P(75) </td><td colspan="1">520 </td><td colspan="1">210 </td><td colspan="1">45 </td><td colspan="1">21.21 </td><td colspan="1">4455 </td><td colspan="1"><span style="color:green">0.90 </td></tr>
-<tr><td colspan="1">X6CrNiTi18-10 </td><td colspan="1">1.4541 </td><td colspan="1">P(75) </td><td colspan="1">500 </td><td colspan="1">200 </td><td colspan="1">40 </td><td colspan="1">20.49 </td><td colspan="1">4099 </td><td colspan="1"><span style="color:green">0.98 </td></tr>
-<tr><td colspan="1">X6CrNiMoTi17-12-2 </td><td colspan="1">1.4571 </td><td colspan="1">P(75) </td><td colspan="1">520 </td><td colspan="1">220 </td><td colspan="1">40 </td><td colspan="1">19.54 </td><td colspan="1">4299 </td><td colspan="1"><span style="color:green">0.94 </td></tr>
-<tr><td colspan="1">X2CrNiMoN17-13-5 </td><td colspan="1">1.4439 </td><td colspan="1">P(75) </td><td colspan="1">580 </td><td colspan="1">270 </td><td colspan="1">40 </td><td colspan="1">17.64 </td><td colspan="1">4762 </td><td colspan="1"><span style="color:green">0.85 </td></tr>
-<tr><td colspan="1">XINiCrMoCuN25-20-7 </td><td colspan="1">1.4529 </td><td colspan="1">P (75) </td><td colspan="1">650 </td><td colspan="1">300 </td><td colspan="1">40 </td><td colspan="1">16.73 </td><td colspan="1">5020 </td><td colspan="1"><span style="color:green">0.80 </td></tr>
-<tr><td colspan="1">X2CrNiN23-4 </td><td colspan="1">1.4362 </td><td colspan="1">P (75) </td><td colspan="1">630 </td><td colspan="1">400 </td><td colspan="1">25 </td><td colspan="1">11.46 </td><td colspan="1">4583 </td><td colspan="1"><span style="color:green">0.88 </td></tr>
-<tr><td colspan="1">X2CrNiMoN25-7-4 </td><td colspan="1">1.441 </td><td colspan="1">P(75) </td><td colspan="1">730 </td><td colspan="1">530 </td><td colspan="1">20 </td><td colspan="1">8.90 </td><td colspan="1">4718 </td><td colspan="1"><span style="color:green">0.85 </td></tr>
-<tr><td colspan="1">X2CrNi12 </td><td colspan="1">1.4003 </td><td colspan="1">P(25) </td><td colspan="1">450 </td><td colspan="1">250 </td><td colspan="1">18 </td><td colspan="1">12.30 </td><td colspan="1">3074 </td><td colspan="1"><span style="color:red">1.31 </td></tr>
-</table>
 
 According to the table above we can choose the materials that are in green zone. However, they are the theoretical values with the elongation to break is considered while calculating the critical strain criterion. In this simulation initially, X4CrNiM016-5-1 material was chosen for the analysis. Which did fail on the static strength assessment. Those results are not included in this report. Nevertheless, in process of finding bater solution X5CrNiCuNb16-4 (P1070) was chosen. Which has the higher tensile strength and yield strength.  
 
