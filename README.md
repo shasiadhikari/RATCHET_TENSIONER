@@ -420,28 +420,28 @@ In our case, the materials that should be considered are provided. These materia
 
 | Type              | Material No. | Kind   | $R_m$ (MPa) | $R_e$ (MPa) | $A$ % | $n_{pl}$ | $σ_{SK}$ (MPa) | $a_{sk}$ |
 |-------------------|--------------|--------|-----------|-----------|-----|------|------------|------|
-| X2CrNi12          | 1.4003       | P(25)  | 450       | 250       | 18  | 12.30| 3074       | <span style="color:red">1.31</span> |
-| X6CrA113          | 1.4002       | H(13.5)| 400       | 210       | 17  | 13.04| 2738       | <span style="color:red">1.47</span> |
-| X6Cr17            | 1.4016       | H(13.5)| 430       | 240       | 18  | 12.55| 3012       | <span style="color:red">1.34</span> |
-|                   |              | P(25)  | 430       | 240       | 20  | 13.23| 3175       | <span style="color:red">1.27</span> |
-| X6CrM017-1        | 1.4113       | C(8)   | 450       | 260       | 18  | 12.06| 3135       | <span style="color:red">1.28</span> |
-| X6CrNi17-1        | 1.4017       | C(8)   | 500       | 330       | 12  | 8.74 | 2884       | <span style="color:red">1.40</span> |
-| X2CrTiNb18        | 1.4509       | C(8)   | 430       | 230       | 18  | 12.82| 2949       | <span style="color:red">1.37</span> |
-| X20Cr13           | 1.4021       | QT650  | 650       | 450       | 12  | 7.48 | 3367       | <span style="color:red">1.20</span> |
-|                   |              | QT750  | 750       | 550       | 10  | 6.18 | 3399       | <span style="color:red">1.18</span> |
-| X4CrNiM016-5-1    | 1.4418       | T840   | 840       | 660       | 14  | 6.67 | 4405       | <span style="color:green">0.91</span> |
-| X5CrNiCuNb16-4    | 1.4542       | P1070  | 1070      | 1000      | 8   | 4.10 | 4099       | <span style="color:green">0.98</span> |
-|                   |              | P950   | 950       | 800       | 10  | 5.12 | 4099       | <span style="color:green">0.98</span> |
-|                   |              | P850   | 850       | 600       | 12  | 6.48 | 3888       | <span style="color:red">1.04</span> |
-| X10CrNi18-8       | 1.431        | C(8)   | 600       | 250       | 40  | 18.33| 4583       | <span style="color:green">0.88</span> |
-| X2CrNiN18-10      | 1.4311       | P(75)  | 550       | 270       | 40  | 17.64| 4762       | <span style="color:green">0.85</span> |
-| X5CrNi18-10       | 1.4301       | P(75)  | 520       | 210       | 45  | 21.21| 4455       | <span style="color:green">0.90</span> |
-| X6CrNiTi18-10     | 1.4541       | P(75)  | 500       | 200       | 40  | 20.49| 4099       | <span style="color:green">0.98</span> |
-| X6CrNiMoTi17-12-2 | 1.4571       | P(75)  | 520       | 220       | 40  | 19.54| 4299       | <span style="color:green">0.94</span> |
-| X2CrNiMoN17-13-5  | 1.4439       | P(75)  | 580       | 270       | 40  | 17.64| 4762       | <span style="color:green">0.85</span> |
-| XINiCrMoCuN25-20-7|1.4529        | P(75)  | 650       | 300       | 40  | 16.73| 5020       | <span style="color:green">0.80</span> |
-| X2CrNiN23-4       | 1.4362       | P(75)  | 630       | 400       | 25  | 11.46| 4583       | <span style="color:green">0.88        |
-|X2CrNiMoN25-7-4    | 1.441        | P(75)  | 450       | 250       | 18  | 8.90 | 4718       | <span style="color:green">0.85        |
+| X2CrNi12          | 1.4003       | P(25)  | 450       | 250       | 18  | 12.30| 3074       | $\color{red}1.31$ |
+| X6CrA113          | 1.4002       | H(13.5)| 400       | 210       | 17  | 13.04| 2738       |  $\color{red}1.47$ |
+| X6Cr17            | 1.4016       | H(13.5)| 430       | 240       | 18  | 12.55| 3012       |  $\color{red}1.34$ |
+|                   |              | P(25)  | 430       | 240       | 20  | 13.23| 3175       |  $\color{red}1.27$ |
+| X6CrM017-1        | 1.4113       | C(8)   | 450       | 260       | 18  | 12.06| 3135       |  $\color{red}1.28$ |
+| X6CrNi17-1        | 1.4017       | C(8)   | 500       | 330       | 12  | 8.74 | 2884       |  $\color{red}1.40$ |
+| X2CrTiNb18        | 1.4509       | C(8)   | 430       | 230       | 18  | 12.82| 2949       |  $\color{red}1.37$ |
+| X20Cr13           | 1.4021       | QT650  | 650       | 450       | 12  | 7.48 | 3367       |  $\color{red}1.20$ |
+|                   |              | QT750  | 750       | 550       | 10  | 6.18 | 3399       |  $\color{red}1.18$ |
+| X4CrNiM016-5-1    | 1.4418       | T840   | 840       | 660       | 14  | 6.67 | 4405       |  $\color{green}0.91$ |
+| X5CrNiCuNb16-4    | 1.4542       | P1070  | 1070      | 1000      | 8   | 4.10 | 4099       | $\color{green}0.98$ |
+|                   |              | P950   | 950       | 800       | 10  | 5.12 | 4099       | $\color{green}0.98$ |
+|                   |              | P850   | 850       | 600       | 12  | 6.48 | 3888       | $\color{red}1.04$ |
+| X10CrNi18-8       | 1.431        | C(8)   | 600       | 250       | 40  | 18.33| 4583       | $\color{green}0.88$ |
+| X2CrNiN18-10      | 1.4311       | P(75)  | 550       | 270       | 40  | 17.64| 4762       | $\color{green}0.85$ |
+| X5CrNi18-10       | 1.4301       | P(75)  | 520       | 210       | 45  | 21.21| 4455       | $\color{green}0.90$ |
+| X6CrNiTi18-10     | 1.4541       | P(75)  | 500       | 200       | 40  | 20.49| 4099       | $\color{green}0.98$ |
+| X6CrNiMoTi17-12-2 | 1.4571       | P(75)  | 520       | 220       | 40  | 19.54| 4299       | $\color{green}0.94$ |
+| X2CrNiMoN17-13-5  | 1.4439       | P(75)  | 580       | 270       | 40  | 17.64| 4762       | $\color{green}0.85$ |
+| XINiCrMoCuN25-20-7|1.4529        | P(75)  | 650       | 300       | 40  | 16.73| 5020       | $\color{green}0.80$ |
+| X2CrNiN23-4       | 1.4362       | P(75)  | 630       | 400       | 25  | 11.46| 4583       | $\color{green}0.88$        |
+|X2CrNiMoN25-7-4    | 1.441        | P(75)  | 450       | 250       | 18  | 8.90 | 4718       | $\color{green}0.85$        |
 
 
 
