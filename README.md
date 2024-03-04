@@ -414,13 +414,14 @@ $\sqrt{E\cdot {\varepsilon_{ertr}\over R_p}} : critical\space strain\space crite
 $\varepsilon_{ertr} : A; \space i.e.\space enlongation\space to\space break\space for\space ductile\space material$
 ⁡
 
-In our case, the materials that should be considered are provided. These materials theoretical degree of utilization is calculated with the maximum von-Miesis stress from the stress analysis and  = 2. The list of materials and their resulting values are provided in the table below.   
+In our case, the materials that should be considered are provided. These materials theoretical degree of utilization is calculated with the maximum von-Miesis stress from the stress analysis and $j_{jes}=2$. The list of materials and their resulting values are provided in the table below.   
 
 *Table 7: List of available materials and their degree of utilization according to the maximum stress obtained on stress analysis.* 
 
 
 
-<table><tr><th colspan="1" valign="top">Type </th><th colspan="1" valign="top">Material No. </th><th colspan="1" valign="top">Kind </th><th colspan="1" valign="bottom">(MPa) </th><th colspan="1" valign="bottom">(MPa) </th><th colspan="1" valign="bottom">% </th><th colspan="1"></th><th colspan="1" valign="bottom">(MPa) </th><th colspan="1"></th></tr>
+
+<table><tr><th colspan="1" valign="top">Type </th><th colspan="1" valign="top">Material No. </th><th colspan="1" valign="top">Kind </th><th colspan="1" valign="bottom"> R_m (MPa) </th><th colspan="1" valign="bottom">R_e (MPa) </th><th colspan="1" valign="bottom">A % </th><th colspan="1" valign= "bottom"> n_pl</th><th colspan="1" valign="bottomM">σ_SK (MPa) </th><th colspan="1"> a_sk</th></tr>
 <tr><td colspan="1">X2CrNi12 </td><td colspan="1">1.4003 </td><td colspan="1">P(25) </td><td colspan="1">450 </td><td colspan="1">250 </td><td colspan="1">18 </td><td colspan="1">12.30 </td><td colspan="1">3074 </td><td colspan="1">1.31 </td></tr>
 <tr><td colspan="1">X6CrA113 </td><td colspan="1">1.4002 </td><td colspan="1">H(13.5 </td><td colspan="1">400 </td><td colspan="1">210 </td><td colspan="1">17 </td><td colspan="1">13.04 </td><td colspan="1">2738 </td><td colspan="1">1.47 </td></tr>
 <tr><td colspan="1" rowspan="2" valign="top">X6Cr17 </td><td colspan="1" rowspan="2" valign="top">1.4016 </td><td colspan="1">H(13.5) </td><td colspan="1">430 </td><td colspan="1">240 </td><td colspan="1">18 </td><td colspan="1">12.55 </td><td colspan="1">3012 </td><td colspan="1">1.34 </td></tr>
